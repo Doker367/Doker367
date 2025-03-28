@@ -15,10 +15,11 @@ Soy un entusiasta del desarrollo web que está comenzando a adquirir experiencia
   - JavaScript
   - SQL
   - Python
+    
 
 - **Librerías y Frameworks**:
-  - Algunas librerías de CSS
-
+  - Express.js
+  - React
 - **Conocimientos adicionales**:
   - Bases de datos SQL
   - Principios básicos de desarrollo con Python
