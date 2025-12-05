@@ -1,10 +1,10 @@
-# ¡Hola!  Soy Alberto Emiliano Grajales Jiménez 👋
+# ¡Hola! 👋 Soy Alberto Emiliano Grajales Jiménez
 
 <div align="center">
 
-### 🚀 Desarrollador Full-Stack | 💻 Arquitecto de Soluciones Multiplataforma | ☁️ DevOps Enthusiast
+### 🚀 Desarrollador Junior | 💻 Aprendiendo Desarrollo Full-Stack | 🌱 En Crecimiento Constante
 
-![Typing SVG](https://readme-typing-svg.demolab.com? font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Creando+experiencias+digitales;Del+frontend+al+servidor;Código+limpio%2C+resultados+increíbles)
+![Typing SVG](https://readme-typing-svg.demolab.com? font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=500&lines=Aprendiendo+a+programar+cada+día;Explorando+frontend+y+backend;Mi+código+mejora+con+cada+commit)
 
 </div>
 
@@ -12,117 +12,120 @@
 
 ## 👨‍💻 Sobre Mí
 
-> *"La tecnología es mejor cuando une a las personas"* - Matt Mullenweg
+> *"El viaje de mil millas comienza con un solo paso"* - Lao Tzu
 
-Soy un desarrollador apasionado por crear soluciones tecnológicas completas, desde interfaces de usuario intuitivas hasta infraestructuras de servidor robustas. Mi filosofía es simple: **código limpio, arquitectura escalable y aprendizaje continuo**. 
+Soy un **desarrollador junior** apasionado por la tecnología y el desarrollo de software. Estoy en las primeras etapas de mi carrera, aprendiendo los fundamentos del desarrollo web, móvil y administración de sistemas.  Cada día es una oportunidad para escribir mejor código y entender nuevos conceptos. 
 
-🔭 Actualmente explorando el ecosistema completo de desarrollo: frontend moderno, backend resiliente y administración de sistemas Linux. 
+🌱 **Actualmente aprendiendo**: Desarrollo web moderno, aplicaciones multiplataforma y administración básica de servidores Linux
 
-🌱 En constante evolución, combinando desarrollo web, aplicaciones móviles nativas y configuración de servidores seguros. 
+📚 **Mi enfoque**: Aprender haciendo, cometer errores y mejorar constantemente
 
-⚡ Dato curioso: Me encanta optimizar tanto el rendimiento del código como la seguridad del sistema operativo.
+💡 **Mi meta**: Convertirme en un desarrollador full-stack competente
+
+⚡ **Dato curioso**: Me encanta experimentar con nuevas tecnologías, aunque todavía estoy dominando las básicas
 
 ---
 
-## 🛠️ Arsenal Tecnológico
+## 🛠️ Tecnologías que Estoy Aprendiendo
 
 ### 💻 Lenguajes de Programación
 
 ```text
-JavaScript   ████████████░░░░░░░░  60%
-C#           ███████████░░░░░░░░░  55%
-Python       ██████████░░░░░░░░░░  50%
-Kotlin       ████████░░░░░░░░░░░░  40%
-SQL          ██████████░░░░░░░░░░  50%
-HTML/CSS     █████████████░░░░░░░  65%
+HTML/CSS     ████████░░░░░░░░░░░░  40% (Lo básico)
+JavaScript   ██████░░░░░░░░░░░░░░  30% (Fundamentos)
+C#           █████░░░░░░░░░░░░░░░  25% (Iniciando)
+Python       ████░░░░░░░░░░░░░░░░  20% (Scripts básicos)
+SQL          █████░░░░░░░░░░░░░░░  25% (Consultas simples)
+Kotlin       ███░░░░░░░░░░░░░░░░░  15% (Explorando)
 ```
 
-### 🎨 Frontend Development
+### 🎨 Frontend
 
 <p align="left">
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D" />
-  <img src="https://img.shields.io/badge/Blazor-512BD4?style=for-the-badge&logo=blazor&logoColor=white" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
   <img src="https://img. shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img. shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB&label=📚" />
+  <img src="https://img.shields.io/badge/Vue.js-35495E? style=for-the-badge&logo=vue.js&logoColor=4FC08D&label=📚" />
+  <img src="https://img. shields.io/badge/Blazor-512BD4?style=for-the-badge&logo=blazor&logoColor=white&label=📚" />
 </p>
 
-### 📱 Desarrollo Móvil & Multiplataforma
+> 📚 = Actualmente aprendiendo
+
+### 📱 Desarrollo Móvil
 
 <p align="left">
-  <img src="https://img.shields.io/badge/. NET_MAUI-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
-  <img src="https://img. shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
-  <img src="https://img.shields. io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
+  <img src="https://img.shields.io/badge/. NET_MAUI-512BD4?style=for-the-badge&logo=dotnet&logoColor=white&label=📚" />
+  <img src="https://img. shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white&label=📚" />
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white&label=📚" />
 </p>
 
-### ⚙️ Backend & Frameworks
+### ⚙️ Backend
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img. shields.io/badge/Express. js-000000?style=for-the-badge&logo=express&logoColor=white" />
-  <img src="https://img.shields. io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
-  <img src="https://img. shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white&label=📚" />
+  <img src="https://img. shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white&label=📚" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/. NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white&label=📚" />
 </p>
 
 ### 🗄️ Bases de Datos
 
 <p align="left">
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields. io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" />
+  <img src="https://img. shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" />
 </p>
 
-### 🐧 Administración de Sistemas & DevOps
+### 🐧 Sistemas & Servidores (Explorando)
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/SELinux-0066CC?style=for-the-badge&logo=redhat&logoColor=white" />
-  <img src="https://img. shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white" />
-  <img src="https://img. shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black&label=📚" />
+  <img src="https://img. shields.io/badge/SELinux-0066CC?style=for-the-badge&logo=redhat&logoColor=white&label=📚" />
+  <img src="https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white&label=📚" />
 </p>
 
 ---
 
-## 💼 Lo Que Hago
+## 💼 Lo Que Estoy Practicando
 
 <table>
 <tr>
 <td width="50%">
 
-### 🎨 Frontend Moderno
-- ✨ SPAs interactivas con **React** y **Vue.js**
-- 🎭 Interfaces dinámicas con **Blazor**
-- 📐 Diseño responsive y accesible
-- 🚀 Optimización de rendimiento web
+### 🎨 Frontend Básico
+- 🌐 Páginas web con **HTML** y **CSS**
+- ✨ Interactividad con **JavaScript**
+- 📚 Aprendiendo **React** y **Vue.js**
+- 📱 Diseño responsive básico
 
 </td>
 <td width="50%">
 
-### 📱 Desarrollo Multiplataforma
-- 📲 Apps nativas con **Flutter**
-- 🔷 Soluciones empresariales con **.NET MAUI**
-- 📱 Desarrollo Android con **Kotlin**
-- 🌐 PWAs y aplicaciones híbridas
+### 📱 Apps Multiplataforma
+- 🔷 Experimentando con **.NET MAUI**
+- 📲 Primeros pasos en **Flutter**
+- 📱 Explorando **Kotlin** para Android
+- 🧪 Creando proyectos de práctica
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-### ⚙️ Backend & APIs
-- 🔌 APIs RESTful con **Express.js**
-- 🗄️ Gestión de bases de datos **MySQL**
-- 🐍 Automatización con **Python**
-- 🔐 Autenticación y seguridad
+### ⚙️ Backend & Datos
+- 🔌 APIs simples con **Express.js**
+- 🗄️ Consultas básicas en **MySQL**
+- 🐍 Scripts de automatización con **Python**
+- 📖 Aprendiendo arquitectura de APIs
 
 </td>
 <td width="50%">
 
-### 🖥️ Administración de Servidores
-- 🐧 Configuración de servidores **Linux**
-- 🔒 Hardening con **SELinux**
-- 🌐 Deploy de aplicaciones web
-- 📊 Monitoreo y optimización
+### 🖥️ Servidores Linux
+- 🐧 Comandos básicos de **Linux**
+- 🔒 Introducción a **SELinux**
+- 🌐 Configuración de servidores web
+- 📚 Montaje y administración de servicios
 
 </td>
 </tr>
@@ -130,25 +133,30 @@ HTML/CSS     █████████████░░░░░░░  65%
 
 ---
 
-## 🎯 Proyectos Destacados
+## 🎯 Proyectos de Práctica
 
 <details>
-<summary>🔍 Ver mis proyectos</summary>
+<summary>📂 Ver mis experimentos y proyectos de aprendizaje</summary>
 
-### 🌐 Aplicaciones Web Full-Stack
-- Sistema de gestión con React + Express + MySQL
-- Dashboard administrativo con Blazor y SQL Server
-- SPA moderna con Vue.js y backend Node.js
+### 🌐 Web Básico
+- ✅ Sitio web personal con HTML/CSS
+- ✅ To-Do List con JavaScript vanilla
+- 🔄 Blog simple con React (en progreso)
+- 📋 Portafolio interactivo con Vue.js (planeado)
 
 ### 📱 Aplicaciones Móviles
-- App multiplataforma con Flutter
-- Aplicación empresarial con .NET MAUI
-- Proyecto nativo Android con Kotlin
+- 🔄 Primera app con . NET MAUI (en progreso)
+- 📋 Calculadora con Flutter (planeado)
+- 📋 App de notas con Kotlin (explorando)
 
-### 🛠️ Infraestructura
-- Servidor web seguro con SELinux
-- Pipeline de deployment automatizado
-- Configuración de entornos de desarrollo
+### 🗄️ Backend
+- ✅ API REST básica con Express.js
+- 🔄 CRUD con MySQL (practicando)
+- 📋 Sistema de autenticación simple (siguiente paso)
+
+### 🐧 Servidores
+- 🔄 Servidor web local con Apache (aprendiendo)
+- 📋 Configuración de SELinux (explorando)
 
 </details>
 
@@ -158,30 +166,56 @@ HTML/CSS     █████████████░░░░░░░  65%
 
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Doker367&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/? username=Doker367&layout=compact&langs_count=8&theme=tokyonight"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Doker367&layout=compact&langs_count=8&theme=tokyonight"/>
 </div>
 
 ---
 
-## 🎓 Roadmap de Aprendizaje 2025
+## 🎓 Mi Plan de Aprendizaje 2026
 
 ```mermaid
-graph LR
-    A[Q1: Profundizar Vue.js] --> B[Q2: Maestría en Flutter]
-    B --> C[Q3: DevOps Avanzado]
-    C --> D[Q4: Arquitecturas Cloud]
+graph TD
+    A[Fundamentos HTML/CSS/JS] --> B[Framework Frontend: React/Vue]
+    B --> C[Backend con Node.js]
+    C --> D[Bases de Datos MySQL]
+    D --> E[Apps Móviles: Flutter/MAUI]
+    E --> F[Linux y Servidores]
+    F --> G[DevOps Básico]
     
-    style A fill:#42b883
-    style B fill:#02569B
-    style C fill:#FCC624
-    style D fill:#FF9900
+    style A fill:#4CAF50
+    style B fill:#2196F3
+    style C fill:#FF9800
+    style D fill:#9C27B0
+    style E fill:#00BCD4
+    style F fill:#FFEB3B
+    style G fill:#F44336
 ```
 
-- [ ] **Vue.js Avanzado**: Vuex, Composition API, Nuxt.js
-- [ ] **Flutter Pro**: State management, animaciones complejas
-- [ ] **Kotlin Nativo**: Jetpack Compose, Coroutines
-- [ ] **SELinux Mastery**: Políticas personalizadas, contextos avanzados
-- [ ] **DevOps**: Docker, Kubernetes, CI/CD
+### 📅 Roadmap Trimestral
+
+**Q1 2026 - Fundamentos Sólidos**
+- [ ] Dominar JavaScript ES6+
+- [ ] Completar curso de React básico
+- [ ] Crear 3 proyectos web completos
+- [ ] Practicar Git y GitHub diariamente
+
+**Q2 2026 - Backend y Datos**
+- [ ] Node.js y Express. js intermedio
+- [ ] Diseño de bases de datos relacionales
+- [ ] API RESTful completa
+- [ ] Autenticación JWT
+
+**Q3 2026 - Desarrollo Móvil**
+- [ ] Flutter: Widgets y navegación
+- [ ] . NET MAUI: Primera app funcional
+- [ ] Kotlin: Fundamentos Android
+- [ ] Publicar una app de práctica
+
+**Q4 2026 - Sistemas y DevOps**
+- [ ] Linux: Administración básica
+- [ ] SELinux: Configuración y políticas
+- [ ] Docker: Contenedores básicos
+- [ ] Deploy de aplicaciones
 
 ---
 
@@ -203,11 +237,13 @@ graph LR
 
 <div align="center">
 
-### 💭 Filosofía de Desarrollo
+### 💭 Mi Filosofía
 
-*"Primero hazlo funcionar, luego hazlo correcto, después hazlo rápido"*
+*"No importa qué tan lento vayas, siempre y cuando no te detengas"* - Confucio
 
-**⭐ Si te gusta mi trabajo, considera darle una estrella a mis repositorios ⭐**
+**Estoy aprendiendo en público.  Cada commit es un paso adelante 🚀**
+
+**⭐ Si también estás aprendiendo, ¡conectemos y aprendamos juntos!  ⭐**
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Doker367&color=blueviolet&style=for-the-badge)
 
@@ -215,23 +251,44 @@ graph LR
 
 ---
 
-## 📚 Recursos y Aprendizaje
+## 📚 Recursos que Me Están Ayudando
 
 <details>
-<summary>🔖 Mis recursos favoritos</summary>
+<summary>🔖 Recursos de aprendizaje</summary>
 
-### Frontend
-- 📘 [Vue.js Documentation](https://vuejs.org/)
-- 📗 [Flutter Cookbook](https://docs.flutter.dev/cookbook)
-- 📕 [React Best Practices](https://react.dev/)
+### 🌐 Frontend
+- 📘 [MDN Web Docs](https://developer.mozilla.org/) - Mi biblia para HTML/CSS/JS
+- 📗 [FreeCodeCamp](https://www.freecodecamp.org/) - Cursos interactivos
+- 📕 [Vue.js Guide](https://vuejs.org/guide/) - Documentación oficial
+- 📙 [React Tutorial](https://react.dev/learn) - Aprendiendo React paso a paso
 
-### Backend & DevOps
-- 🐍 [Python for DevOps](https://www. python.org/)
-- 🔒 [SELinux User's Guide](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/using_selinux/)
-- 🐧 [Linux Server Administration](https://www.linux. org/)
+### ⚙️ Backend
+- 🐍 [Python. org Tutorial](https://docs.python.org/3/tutorial/) - Python desde cero
+- 🟢 [Node.js Docs](https://nodejs.org/docs/latest/api/) - Documentación oficial
+- 📗 [Express.js Guide](https://expressjs.com/en/guide/routing.html) - Rutas y middleware
 
-### Mobile
-- 📱 [Kotlin Docs](https://kotlinlang.org/docs/home.html)
-- 🎯 [Flutter Widget Catalog](https://docs.flutter.dev/ui/widgets)
+### 📱 Móvil
+- 📱 [Flutter Codelabs](https://docs.flutter.dev/codelabs) - Tutoriales prácticos
+- 🔷 [. NET MAUI Workshop](https://github.com/dotnet-presentations/dotnet-maui-workshop)
+- 📘 [Kotlin Basics](https://kotlinlang.org/docs/basic-syntax.html) - Sintaxis fundamental
+
+### 🐧 Linux & Servidores
+- 🐧 [Linux Journey](https://linuxjourney. com/) - Aprender Linux interactivamente
+- 🔒 [SELinux Basics](https://wiki.centos.org/HowTos/SELinux) - Primeros pasos
+- 📖 [DigitalOcean Tutorials](https://www.digitalocean.com/community/tutorials) - Configuración de servidores
+
+### 🗄️ Bases de Datos
+- 🐬 [MySQL Tutorial](https://dev.mysql.com/doc/mysql-tutorial-excerpt/8.0/en/) - Oficial
+- 📊 [SQL Teaching](https://www.sqlteaching.com/) - SQL interactivo
 
 </details>
+
+---
+
+<div align="center">
+
+### 🌟 "El código perfecto no existe, pero el código que funciona sí"
+
+**¿Tienes consejos para un desarrollador junior?  ¡Abre un issue o contáctame!**
+
+</div>
