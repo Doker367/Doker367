@@ -2,9 +2,9 @@
 
 # ¡Hola! 👋 Soy Alberto Emiliano Grajales Jiménez
 
-### 🚀 Desarrollador Full-Stack | 💻 Especialista en Node.js & . NET | 🐳 DevOps Engineer
+### 🚀 Desarrollador Full-Stack | 💼 Especialista en .  NET | 🐳 DevOps Engineer
 
-![Status](https://img.shields.io/badge/🎯_Status-Activo-success? style=for-the-badge)
+![Status](https://img.shields.io/badge/🎯_Status-Activo-success?style=for-the-badge)
 ![Level](https://img.shields.io/badge/💻_Level-Mid--Level-blue?style=for-the-badge)
 ![Focus](https://img.shields.io/badge/🔥_Focus-Full--Stack_%26_DevOps-orange?style=for-the-badge)
 
@@ -18,9 +18,9 @@
 
 > *"La mejor forma de predecir el futuro es construirlo"* - Peter Drucker
 
-Soy un desarrollador **full-stack** con experiencia en la creación de **soluciones empresariales completas**, desde e-commerce hasta sistemas de logística y paquetería.  Me especializo en **Node.js/Express** y **. NET**, desarrollo de aplicaciones móviles multiplataforma, y arquitecturas basadas en contenedores con Docker. 
+Soy un desarrollador **full-stack** con experiencia en la creación de **soluciones empresariales completas**, desde e-commerce hasta sistemas de logística y paquetería.  Me especializo en el ecosistema **.  NET**, desarrollo móvil multiplataforma, y arquitecturas basadas en contenedores.  
 
-🔭 **Actualmente trabajando en**: Proyectos empresariales con Node.js, .NET, Vue.js y orquestación de contenedores
+🔭 **Actualmente trabajando en**: Proyectos empresariales con .  NET, Docker y orquestación de contenedores
 
 🌱 **Aprendiendo**: Kubernetes, microservicios avanzados y arquitecturas cloud-native
 
@@ -35,9 +35,8 @@ Soy un desarrollador **full-stack** con experiencia en la creación de **solucio
 ### 💻 Lenguajes & Frameworks
 
 ```text
-Node.js/Express ████████████████░░░░  80% ⭐ Principal
-JavaScript      ████████████████░░░░  80% ⭐ Dominio
-C# / .NET       ████████████░░░░░░░░  60%
+C# / .NET       ████████████████░░░░  80% ⭐ Principal
+JavaScript      ████████████░░░░░░░░  60%
 SQL             ███████████░░░░░░░░░  55%
 HTML/CSS        █████████████░░░░░░░  65%
 Python          ██████░░░░░░░░░░░░░░  30%
@@ -47,29 +46,29 @@ Kotlin          ████████░░░░░░░░░░░░  40
 ### 🎨 Frontend
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img. shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields. io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img. shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D" />
   <img src="https://img. shields.io/badge/Blazor-512BD4?style=for-the-badge&logo=blazor&logoColor=white" />
 </p>
 
 ### ⚙️ Backend & APIs
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node. js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
-  <img src="https://img.shields. io/badge/. NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" />
+  <img src="https://img.shields.io/badge/. NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
   <img src="https://img. shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
 </p>
 
 ### 📱 Desarrollo Móvil
 
 <p align="left">
-  <img src="https://img.shields.io/badge/. NET_MAUI-512BD4? style=for-the-badge&logo=dotnet&logoColor=white" />
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+  <img src="https://img.shields.io/badge/. NET_MAUI-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
+  <img src="https://img. shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
   <img src="https://img.shields. io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
 </p>
 
@@ -77,15 +76,14 @@ Kotlin          ████████░░░░░░░░░░░░  40
 
 <p align="left">
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields. io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" />
 </p>
 
 ### 🐳 DevOps & Infraestructura
 
 <p align="left">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields. io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white&label=🚀_Aprendiendo" />
+  <img src="https://img.shields. io/badge/Kubernetes-326CE5? style=for-the-badge&logo=kubernetes&logoColor=white&label=🚀_Aprendiendo" />
   <img src="https://img.shields. io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
   <img src="https://img. shields.io/badge/SELinux-0066CC?style=for-the-badge&logo=redhat&logoColor=white" />
   <img src="https://img. shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white" />
@@ -94,197 +92,107 @@ Kotlin          ████████░░░░░░░░░░░░  40
 
 ---
 
-## 💼 Proyectos en Producción
+## 💼 Proyectos Reales
 
-### 📦 [ManyBox Enviox](https://manyboxenviox.com/) - Sistema de Paquetería Integral
+### 🛒 E-Commerce - "Cielo y Tierra" (Tienda Posh)
 
-**Stack**: Node.js + Express. js + MySQL + Docker + Nginx
-
-<div align="center">
-
-[![Visit](https://img.shields.io/badge/🌐_Ver_Proyecto-manyboxenviox.com-success?style=for-the-badge)](https://manyboxenviox.com/)
-
-</div>
+**Stack**: HTML, CSS, JavaScript, .  NET Backend, MySQL
 
 ```yaml
-Plataforma Web (Node.js + Express):
-  Features:
-    - 🌐 Portal de compra de guías de envío
-    - 💰 Sistema de cotización automática
-    - 📋 Gestión de paquetes y rastreo
-    - 💳 Procesamiento de pagos en línea
-    - 📊 Dashboard administrativo
-    - 📈 Reportes y analíticas
+Características:
+  - 🛍️ Catálogo de productos con filtros
+  - 🛒 Carrito de compras funcional
+  - 💳 Sistema de pagos integrado
+  - 👤 Gestión de usuarios y perfiles
+  - 📊 Panel administrativo
   
-  Stack Técnico:
-    Backend: Node.js + Express. js
-    Frontend: HTML5, CSS3, JavaScript
-    Database: MySQL
-    Auth: JWT + Sessions
+Tecnologías: Frontend web + Backend .NET + Base de datos relacional
+```
+
+---
+
+### 📦 Sistema de Paquetería Integral
+
+**Stack**: . NET Core API, .  NET MAUI Mobile, Docker, Nginx, MySQL
+
+🔗 **[Ver Proyecto en Producción →](https://manyboxenviox.com/)**
+
+```yaml
+Componentes:
+  Web Platform:
+    - 🌐 Portal de compra de guías de envío
+    - 📋 Sistema de cotización en tiempo real
+    - 💰 Procesamiento de pagos
+    - 📊 Dashboard administrativo
     
-App Móvil (Choferes):
-  Plataforma: . NET MAUI
-  Features:
-    - 📱 Monitoreo de rutas en tiempo real
-    - 🗺️ Geolocalización GPS
-    - ✅ Control de entregas y recolecciones
-    - 📸 Captura de evidencias fotográficas
-    - 🔔 Notificaciones push
-    - 📡 Sincronización offline
+  Mobile App (Choferes):
+    - 📱 App con .  NET MAUI
+    - 🗺️ Monitoreo de rutas en tiempo real
+    - 📍 Geolocalización de paquetes
+    - ✅ Control de entregas
+    - 📸 Captura de evidencias
     
-  Backend API:
-    - 🔌 RESTful API en C# .NET Core
-    - 🗄️ SQL Server
-    - 📡 WebSockets para tracking en vivo
+  Backend:
+    - 🔌 API RESTful en C# .NET
+    - 🗄️ Base de datos MySQL
     - 🔐 Autenticación JWT
+    - 📡 WebSockets para tracking en tiempo real
     
-Infraestructura:
-  Deployment:
+  Infraestructura:
     - 🐳 Contenedores Docker
     - 🔄 Nginx como reverse proxy
-    - 🚀 Orquestación de microservicios
-    - 🛡️ SELinux para seguridad
-    - 📊 Monitoreo y logs
-```
-
-**Impacto**:
-- ✅ **500+ guías** procesadas mensualmente
-- ✅ Reducción del **40%** en tiempo de gestión
-- ✅ Tracking en **tiempo real** para clientes
-- ✅ Alta disponibilidad con **99.9% uptime**
-
----
-
-### 🏢 [LARCAD](https://www. larcad.mx/) - Centro de Datos
-
-**Stack**: Vue.js + Node.js + Docker
-
-<div align="center">
-
-[![Visit](https://img.shields. io/badge/🌐_Ver_Proyecto-larcad.mx-blue?style=for-the-badge)](https://www.larcad.mx/)
-
-</div>
-
-```yaml
-Frontend:
-  Framework: Vue.js
-  Features:
-    - 🎨 SPA moderna y responsive
-    - ⚡ Componentes reutilizables
-    - 🎭 Interfaz dinámica
-    - 📱 Mobile-first design
-    - 🔄 State management con Vuex
-    
-Backend:
-  Stack: Node.js + Express
-  Features:
-    - 🔌 API RESTful
-    - 🗄️ Gestión de recursos del centro de datos
-    - 👥 Sistema de administración
-    - 🔒 Control de accesos
-    - 📊 Panel de monitoreo
-    
-Infraestructura:
-  Deploy:
-    - 🐳 Dockerizado para alta disponibilidad
-    - 🌐 Nginx/Apache como web server
-    - 🛡️ SELinux para hardening
-    - 🔐 SSL/TLS certificates
-    - ☁️ Load balancing
-```
-
-**Características Destacadas**:
-- ✅ **Vue.js 3** con Composition API
-- ✅ **Performance optimizado** con lazy loading
-- ✅ **Arquitectura escalable** basada en componentes
-- ✅ **Responsive design** para todos los dispositivos
-
----
-
-### 🛒 E-Commerce "Cielo y Tierra" - Tienda Posh
-
-**Stack**: Node.js + Express. js + MySQL + Docker
-
-```yaml
-Plataforma:
-  Backend: Node.js + Express.js
-  Frontend: HTML5, CSS3, JavaScript (Vanilla/React)
-  Database: MySQL
-  
-Features:
-  Catálogo:
-    - 🛍️ Productos con categorías
-    - 🔍 Búsqueda y filtros avanzados
-    - 🖼️ Galería de imágenes
-    - ⭐ Sistema de reseñas
-    
-  Carrito de Compras:
-    - 🛒 Carrito persistente
-    - 💰 Cálculo de envío automático
-    - 🎁 Cupones de descuento
-    - 📦 Gestión de inventario en tiempo real
-    
-  Pagos y Usuarios:
-    - 💳 Integración de pagos (Stripe/PayPal)
-    - 👤 Autenticación de usuarios
-    - 📧 Sistema de correos (confirmación, envío)
-    - 🔐 Seguridad con JWT
-    
-  Administración:
-    - 📊 Dashboard administrativo
-    - 📈 Reportes de ventas
-    - 🏷️ Gestión de productos
-    - 📦 Control de pedidos
-    
-Infraestructura:
-  - 🐳 Docker Compose para desarrollo
-  - 🌐 Nginx reverse proxy
-  - 🗄️ MySQL con replicación
-  - 📊 PM2 para gestión de procesos Node.js
+    - 🚀 Orquestación de servicios
 ```
 
 **Logros**:
-- ✅ **100+ productos** en catálogo
-- ✅ Sistema de **pagos seguro**
-- ✅ **Panel admin** completo
-- ✅ **Mobile responsive**
+- ✅ Reducción del 40% en tiempo de gestión de guías
+- ✅ Tracking en tiempo real para clientes
+- ✅ Escalabilidad mediante contenedores
+
+---
+
+### 🏢 LARCAD - Centro de Datos
+
+**Stack**: .NET, Web Frontend, Docker
+
+🔗 **[Ver Proyecto en Producción →](https://www.larcad.mx/)**
+
+```yaml
+Descripción:
+  - 🖥️ Portal web para centro de datos
+  - 📊 Gestión de recursos y servicios
+  - 👥 Panel de administración
+  - 🔒 Seguridad y control de accesos
+  
+Infraestructura:
+  - 🐳 Dockerizado para alta disponibilidad
+  - 🔧 Nginx/Apache como web server
+  - 🛡️ SELinux para hardening de seguridad
+```
 
 ---
 
 ### 📱 Sistema de Inventariado Móvil
 
-**Stack**: . NET MAUI + . NET Core API + SQL Server + Docker
+**Stack**: .  NET MAUI, .  NET Core API, SQL Server
 
 ```yaml
-App Móvil (. NET MAUI):
-  Características:
+Features:
+  App Móvil:
     - 📦 Escaneo de códigos QR/Barras
     - ✏️ Registro de productos en tiempo real
     - 📊 Reportes de inventario
     - 🔄 Sincronización offline
-    - 📸 Captura de fotos de productos
-    - 🏷️ Etiquetado y categorización
     
-Backend API (. NET Core):
-  Features:
-    - 🔌 RESTful API en C#
+  Backend:
+    - 🔌 API REST en .  NET Core
     - 🗄️ SQL Server database
-    - 🔐 Autenticación JWT
     - 📈 Analytics de inventario
-    - 📡 Real-time sync
     
-Deploy:
-  - 🐳 Contenedores Docker
-  - 🌐 Nginx reverse proxy
-  - 🔄 Auto-scaling
-  - 📊 Monitoring con logs
+  Deploy:
+    - 🐳 Contenedores Docker
+    - 🌐 Nginx reverse proxy
 ```
-
-**Ventajas**:
-- ✅ **Multiplataforma** (Android/iOS/Windows)
-- ✅ **Modo offline** con sincronización
-- ✅ **Escaneo rápido** de productos
-- ✅ **Reportes en tiempo real**
 
 ---
 
@@ -294,24 +202,13 @@ Deploy:
 <tr>
 <td width="50%">
 
-### 🔧 Containerización con Docker
+### 🔧 Containerización
 
-```dockerfile
-# Ejemplo: Node.js App
-FROM node:18-alpine
-WORKDIR /app
-COPY package*.json ./
-RUN npm ci --only=production
-COPY . .
-EXPOSE 3000
-CMD ["node", "server. js"]
-```
-
-```dockerfile
-# Ejemplo: .NET App
+```bash
+# Dockerizo aplicaciones .  NET
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
-COPY bin/Release/net8.0/publish/ .
+COPY .  .  
 EXPOSE 80
 ENTRYPOINT ["dotnet", "MiApp.dll"]
 ```
@@ -320,107 +217,52 @@ ENTRYPOINT ["dotnet", "MiApp.dll"]
 - ✅ Dockerfiles multi-stage
 - ✅ Docker Compose para stacks completos
 - ✅ Optimización de imágenes
-- ✅ Redes y volúmenes personalizados
-- ✅ Docker Swarm (básico)
+- ✅ Redes y volúmenes
 
 </td>
 <td width="50%">
 
-### 🎯 Orquestación de Servicios
+### 🎯 Orquestación
 
 ```yaml
-# docker-compose.yml
-version: '3.8'
+# Docker Compose example
 services:
-  app:
-    build: ./app
-    ports: ["3000:3000"]
-    environment:
-      - NODE_ENV=production
-    depends_on:
-      - db
-      
+  api:
+    build: ./api
+    ports: ["5000:80"]
   nginx:
     image: nginx:alpine
-    ports: ["80:80", "443:443"]
-    volumes:
-      - ./nginx.conf:/etc/nginx/nginx.conf
-      - ./ssl:/etc/nginx/ssl
-    depends_on:
-      - app
-      
+    volumes: ["./nginx.conf:/etc/nginx/nginx.conf"]
   db:
     image: mysql:8.0
-    volumes:
-      - db-data:/var/lib/mysql
-    environment:
-      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
-
-volumes:
-  db-data:
 ```
 
-**En producción**:
-- ✅ Múltiples proyectos en Docker
-- ✅ Reverse proxy con Nginx
+**En progreso**:
 - 🚀 Migrando a **Kubernetes**
+- 📚 Aprendiendo Helm Charts
+- 🔄 CI/CD pipelines
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-### 🌐 Configuración de Servidores Web
+### 🌐 Servidores Web
 
-**Nginx** (Principal):
-```nginx
-upstream backend {
-    server app:3000;
-}
-
-server {
-    listen 80;
-    server_name manyboxenviox.com;
-    
-    location / {
-        proxy_pass http://backend;
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-    }
-}
-```
-
-**Apache** (Alternativo):
-- ✅ Virtual hosts
-- ✅ SSL/TLS configuration
-- ✅ . htaccess optimization
-- ✅ Mod_rewrite para SPAs
+- ✅ **Apache**: Configuración, virtual hosts, SSL
+- ✅ **Nginx**: Reverse proxy, load balancing
+- ✅ **SELinux**: Políticas de seguridad
+- ✅ Certificados SSL/TLS
 
 </td>
 <td width="50%">
 
 ### 🐧 Administración Linux
 
-**Habilidades**:
-- ✅ **SELinux**: Políticas personalizadas
-- ✅ **Systemd**: Gestión de servicios
-- ✅ **Shell Scripting**: Automatización
-- ✅ **SSH**: Configuración segura
-- ✅ **Firewall**: iptables, firewalld
-- ✅ **Logs**: journalctl, syslog
-
-**Tareas Comunes**:
-```bash
-# Montaje de servidores
-$ systemctl start nginx
-$ docker-compose up -d
-$ systemctl enable myapp. service
-
-# Monitoreo
-$ htop
-$ docker stats
-$ tail -f /var/log/nginx/access.log
-```
+- ✅ Montaje y configuración de servidores
+- ✅ Shell scripting para automatización
+- ✅ Gestión de servicios (systemd)
+- ✅ Monitoreo y logs
 
 </td>
 </tr>
@@ -428,57 +270,16 @@ $ tail -f /var/log/nginx/access.log
 
 ---
 
-## 🎯 Arquitectura de Soluciones
+## 🎯 Lo Que Hago
 
 <div align="center">
 
-```mermaid
-graph TB
-    subgraph "Frontend Layer"
-        A[Vue.js SPA] 
-        B[React App]
-        C[Mobile App . NET MAUI]
-    end
-    
-    subgraph "API Gateway"
-        D[Nginx Reverse Proxy]
-    end
-    
-    subgraph "Backend Services"
-        E[Node.js/Express API]
-        F[. NET Core API]
-    end
-    
-    subgraph "Data Layer"
-        G[(MySQL)]
-        H[(SQL Server)]
-    end
-    
-    subgraph "Infrastructure"
-        I[Docker Containers]
-        J[Kubernetes - Learning]
-    end
-    
-    A --> D
-    B --> D
-    C --> D
-    D --> E
-    D --> F
-    E --> G
-    F --> H
-    E -.-> I
-    F -. -> I
-    I -.-> J
-    
-    style A fill:#42b883
-    style B fill:#61dafb
-    style C fill:#512bd4
-    style D fill:#009639
-    style E fill:#339933
-    style F fill:#512bd4
-    style I fill:#2496ed
-    style J fill:#326ce5
-```
+| Frontend 🎨 | Backend ⚙️ | Mobile 📱 | DevOps 🐳 |
+|------------|-----------|----------|-----------|
+| Interfaces modernas | APIs RESTful en .NET | Apps con MAUI/Flutter | Docker & Orquestación |
+| React/Vue/Blazor | C# + ASP.NET Core | Kotlin para Android | Nginx/Apache |
+| E-commerce | Microservicios | Sincronización offline | Linux & SELinux |
+| Dashboards | Autenticación JWT | Geolocalización | Kubernetes (aprendiendo) |
 
 </div>
 
@@ -488,7 +289,7 @@ graph TB
 
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Doker367&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/? username=Doker367&layout=compact&langs_count=8&theme=tokyonight"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Doker367&layout=compact&langs_count=8&theme=tokyonight"/>
 </div>
 
 ---
@@ -497,45 +298,43 @@ graph TB
 
 ```mermaid
 graph LR
-    A[✅ Node.js & Express] --> B[✅ Docker Mastery]
-    B --> C[🔄 Kubernetes]
-    C --> D[☁️ Cloud AWS/Azure]
-    D --> E[🎯 Microservicios]
-    E --> F[🚀 Arquitectura Empresarial]
+    A[✅ Docker Mastery] --> B[🔄 Kubernetes]
+    B --> C[☁️ Cloud Azure/AWS]
+    C --> D[🔧 Microservicios Avanzados]
+    D --> E[🚀 Arquitectura Empresarial]
     
-    style A fill:#339933
-    style B fill:#2496ED
-    style C fill:#326CE5
-    style D fill:#FF9900
-    style E fill:#512BD4
-    style F fill:#00C853
+    style A fill:#2496ED
+    style B fill:#326CE5
+    style C fill:#FF9900
+    style D fill:#512BD4
+    style E fill:#00C853
 ```
 
 ### 📅 Objetivos 2026
 
 **Q1 - Consolidar DevOps**
-- [x] ✅ Dominar Docker y Docker Compose
-- [ ] 🔄 Certificación Kubernetes (CKA)
-- [ ] 📚 CI/CD con GitHub Actions
-- [ ] 🏗️ Terraform para IaC
+- [x] Dominar Docker y Docker Compose
+- [ ] Certificación Kubernetes (CKA)
+- [ ] CI/CD con GitHub Actions
+- [ ] Terraform para IaC
 
 **Q2 - Cloud & Escalabilidad**
-- [ ] ☁️ AWS Solutions Architect
-- [ ] 🚀 Desplegar en EKS/AKS
-- [ ] 🔧 Microservicios con Node.js
-- [ ] 📡 Service Mesh (Istio)
+- [ ] Azure Fundamentals + Developer Associate
+- [ ] Desplegar apps en AKS (Azure Kubernetes)
+- [ ] Implementar microservicios
+- [ ] Service Mesh (Istio/Linkerd)
 
 **Q3 - Mobile & Cross-Platform**
-- [ ] 📱 App en producción con Flutter
-- [ ] 🔷 . NET MAUI avanzado
-- [ ] 📲 Kotlin: Jetpack Compose
-- [ ] 🏪 Publicar en App Stores
+- [ ] App en producción con Flutter
+- [ ] .  NET MAUI avanzado (Animations, MVVM)
+- [ ] Kotlin: Jetpack Compose
+- [ ] Publicar en Play Store/App Store
 
-**Q4 - Arquitectura Senior**
-- [ ] 🏗️ Event-Driven Architecture
-- [ ] 📊 GraphQL APIs
-- [ ] 🎯 Design Patterns avanzados
-- [ ] 👥 Mentoría y liderazgo técnico
+**Q4 - Arquitectura & Liderazgo**
+- [ ] Patrones de diseño empresariales
+- [ ] Event-Driven Architecture
+- [ ] Mentorear a otros devs
+- [ ] Contribuir a Open Source
 
 ---
 
@@ -543,16 +342,18 @@ graph LR
 
 <div align="center">
 
-| Categoría | Tecnologías | Nivel | Proyectos |
-|-----------|-------------|-------|-----------|
-| **Backend Node.js** | Express, REST APIs | ⭐⭐⭐⭐⭐ | ManyBox, E-commerce |
-| **Frontend** | Vue.js, React, HTML/CSS/JS | ⭐⭐⭐⭐ | LARCAD, Apps web |
-| **Backend .NET** | C#, ASP.NET Core | ⭐⭐⭐⭐ | APIs, Mobile backends |
-| **Mobile** | .NET MAUI, Flutter, Kotlin | ⭐⭐⭐⭐ | Inventario, Paquetería |
-| **DevOps** | Docker, Nginx, Apache | ⭐⭐⭐⭐⭐ | Todos los proyectos |
-| **Databases** | MySQL, SQL Server | ⭐⭐⭐⭐ | E-commerce, APIs |
-| **Linux** | Administración, SELinux | ⭐⭐⭐⭐ | Servidores producción |
-| **Kubernetes** | Orquestación (Aprendiendo) | ⭐⭐⭐ | Migración en progreso |
+### 🎯 Fortalezas Técnicas
+
+| Categoría | Tecnologías | Nivel |
+|-----------|-------------|-------|
+| **Backend** | C#, .NET Core, ASP.NET | ⭐⭐⭐⭐⭐ |
+| **APIs** | RESTful, JWT, WebSockets | ⭐⭐⭐⭐⭐ |
+| **Mobile** | .  NET MAUI, Flutter, Kotlin | ⭐⭐⭐⭐ |
+| **Frontend** | HTML/CSS/JS, React, Vue | ⭐⭐⭐⭐ |
+| **DevOps** | Docker, Nginx, Apache | ⭐⭐⭐⭐ |
+| **Databases** | MySQL, SQL Server | ⭐⭐⭐⭐ |
+| **Linux** | Administración, SELinux | ⭐⭐⭐ |
+| **Kubernetes** | En aprendizaje activo | ⭐⭐⭐ |
 
 </div>
 
@@ -565,7 +366,7 @@ graph LR
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
   </a>
   <a href="mailto:tu-email@ejemplo.com">
-    <img src="https://img. shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
   <a href="https://linkedin.com/in/tu-perfil">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
@@ -581,41 +382,21 @@ graph LR
 
 ### 💭 Filosofía de Desarrollo
 
-```javascript
+```typescript
 const miEnfoque = {
-  backend: "Node.js para escalabilidad, .NET para robustez",
-  frontend: "Vue.js para dinamismo, React para ecosistema",
-  mobile: ". NET MAUI para multiplataforma nativa",
-  devops: "Docker para desarrollo, Kubernetes para producción",
-  database: "MySQL para rapidez, SQL Server para empresas",
-  objetivo: "Crear soluciones que resuelvan problemas reales"
+  codigo: "Limpio y mantenible",
+  arquitectura: "Escalable y robusta",
+  aprendizaje: "Continuo e imparable",
+  colaboracion: "Abierto a nuevas ideas",
+  objetivo: "Crear soluciones que importen"
 };
-
-console.log(miEnfoque);
-// Output: "Código limpio, arquitectura escalable, aprendizaje continuo"
 ```
-
----
-
-### 🌟 Proyectos en Producción
-
-[![ManyBox](https://img.shields.io/badge/🚀_En_Producción-ManyBox_Enviox-success?style=for-the-badge)](https://manyboxenviox.com/)
-[![LARCAD](https://img.shields.io/badge/🚀_En_Producción-LARCAD-blue?style=for-the-badge)](https://www.larcad.mx/)
-[![E-commerce](https://img.shields.io/badge/🚀_En_Producción-Cielo_y_Tierra-orange?style=for-the-badge)](#)
 
 ---
 
 **⭐ Si te gustan mis proyectos, considera seguirme y colaborar ⭐**
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Doker367&color=blueviolet&style=for-the-badge)
-
-### 💼 ¿Buscas un desarrollador Full-Stack con experiencia real?
-
-**¡Trabajemos juntos! ** Contáctame para proyectos de:
-- 🌐 Aplicaciones web empresariales
-- 📱 Apps móviles multiplataforma
-- 🔌 APIs RESTful escalables
-- 🐳 Infraestructura con Docker/Kubernetes
 
 </div>
 
@@ -624,42 +405,31 @@ console.log(miEnfoque);
 ## 📚 Recursos & Certificaciones
 
 <details>
-<summary>🎓 Recursos de aprendizaje</summary>
+<summary>🎓 Mi arsenal de aprendizaje</summary>
 
-### 📖 Actualmente Estudiando
+### 📖 Aprendiendo Actualmente
 
 **Kubernetes & Orquestación**
 - 🎯 [Kubernetes Documentation](https://kubernetes.io/docs/)
-- 📘 [Kubernetes for Developers](https://www.udemy.com/course/kubernetes-for-developers/)
-- 🎓 Preparando certificación CKAD
+- 📘 [Kubernetes The Hard Way](https://github. com/kelseyhightower/kubernetes-the-hard-way)
+- 🎓 Preparando certificación CKA
 
 **Cloud Computing**
-- ☁️ [AWS Certified Developer](https://aws.amazon.com/certification/certified-developer-associate/)
-- 🔧 [Azure for Node.js Developers](https://learn.microsoft.com/azure/developer/javascript/)
+- ☁️ [Microsoft Learn - Azure](https://learn.microsoft.com/azure/)
+- 🔧 [Azure DevOps Labs](https://azuredevopslabs.com/)
 
-**Node.js Avanzado**
-- 🟢 [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices)
-- 🎯 Microservices with Node.js
-- 📡 Real-time con WebSockets
+**Arquitectura**
+- 🏗️ [Microservices Patterns](https://microservices.io/)
+- 📕 Clean Architecture - Robert C. Martin
+- 🎯 Domain-Driven Design
 
-### 🛠️ Stack de Herramientas
+### 🛠️ Herramientas Favoritas
 
-**Desarrollo**
-- **IDEs**: VS Code, Visual Studio, WebStorm
-- **API Testing**: Postman, Insomnia, Thunder Client
-- **Database**: MySQL Workbench, DBeaver, SSMS
-- **Version Control**: Git, GitHub, GitKraken
-
-**DevOps**
+- **IDE**: Visual Studio, VS Code, Rider
 - **Containers**: Docker Desktop, Portainer
-- **Servers**: Nginx, Apache
-- **Monitoring**: PM2, htop, Docker stats
-- **CI/CD**: GitHub Actions (aprendiendo)
-
-**Mobile**
-- **Android Studio** para Kotlin
-- **Visual Studio** para .NET MAUI
-- **VS Code** para Flutter
+- **API Testing**: Postman, Swagger
+- **Version Control**: Git, GitHub
+- **Database**: MySQL Workbench, SSMS
 
 </details>
 
@@ -667,12 +437,12 @@ console.log(miEnfoque);
 
 <div align="center">
 
-### 🔥 "El código que funciona en producción vale más que mil tutoriales"
+### 🌟 "El código que escribes hoy es el legado de mañana"
+
+**¿Trabajamos juntos?  ¡Abre un issue o contáctame directamente!**
 
 ![Coding](https://img.shields.io/badge/Status-Coding-success?style=for-the-badge&logo=visual-studio-code)
-![Learning](https://img.shields.io/badge/Status-Learning_K8s-blue?style=for-the-badge&logo=kubernetes)
-![Deploying](https://img.shields. io/badge/Status-Deploying-orange?style=for-the-badge&logo=docker)
-
-**¿Tienes un proyecto?   ¡Hablemos!** 🚀
+![Learning](https://img.shields.io/badge/Status-Learning-blue?style=for-the-badge&logo=kubernetes)
+![Building](https://img.shields.io/badge/Status-Building-orange?style=for-the-badge&logo=docker)
 
 </div>
