@@ -353,7 +353,7 @@ graph LR
 | **DevOps** | Docker, Nginx, Apache | ⭐⭐⭐⭐ |
 | **Databases** | MySQL, SQL Server | ⭐⭐⭐⭐ |
 | **Linux** | Administración, SELinux | ⭐⭐⭐ |
-| **Kubernetes** | En aprendizaje activo | ⭐⭐⭐ |
+
 
 </div>
 
