@@ -8,7 +8,7 @@
 ![Level](https://img.shields.io/badge/💻_Level-Mid--Level-blue?style=for-the-badge)
 ![Focus](https://img.shields.io/badge/🔥_Focus-Full--Stack_%26_DevOps-orange?style=for-the-badge)
 
-**Construyendo soluciones empresariales • APIs escalables • Infraestructura en contenedores**
+**Construyendo soluciones empresariales • APIs escalables**
 
 ---
 
@@ -167,7 +167,6 @@ Descripción:
 Infraestructura:
   - 🐳 Dockerizado para alta disponibilidad
   - 🔧 Nginx/Apache como web server
-  - 🛡️ SELinux para hardening de seguridad
 ```
 
 ---
@@ -352,7 +351,7 @@ graph LR
 | **Frontend** | HTML/CSS/JS, React, Vue | ⭐⭐⭐⭐ |
 | **DevOps** | Docker, Nginx, Apache | ⭐⭐⭐⭐ |
 | **Databases** | MySQL, SQL Server | ⭐⭐⭐⭐ |
-| **Linux** | Administración, SELinux | ⭐⭐⭐ |
+| **Linux** | Administración,  | ⭐⭐⭐ |
 
 
 </div>
