@@ -1,7 +1,31 @@
+<div align="center">
+
+  <h1>𝔇𝔒𝔎𝔈𝔑 367</h1>
+  <p><strong>Full Stack Developer</strong> · México 🇲🇽</p>
+
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=39FF14&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=Building+secure+systems+with+clean+code;From+Flutter+to+PyTorch+%E2%80%94+full+stack" alt="Typing SVG" />
+  </a>
+
+  <br/><br/>
+
+  <a href="https://github.com/Doker367">
+    <img src="https://komarev.com/ghpvc/?username=Doker367&color=39ff14&style=flat-square&label=PROFILE+VIEWS" alt="profile views" />
+  </a>
+  <a href="mailto:blcdoker@gmail.com">
+    <img src="https://img.shields.io/badge/Email-blcdoker@gmail.com-39ff14?style=flat-square&logo=protonmail&logoColor=white" />
+  </a>
+
+</div>
 
 ---
 
-<!-- TECH STACK -->
+### About
+
+Desarrollador Full Stack con enfoque en **arquitecturas escalables**, **ciberseguridad** y **machine learning**. Construyo desde sistemas POS y e-commerce hasta motores de detección de fraude con deep learning y GPUs. Creo firmemente que el buen software nace de la intersección entre código limpio, seguridad desde el diseño y resolución de problemas reales.
+
+
+---
 
 ### Tech Stack
 
@@ -62,8 +86,6 @@
 </table>
 
 ---
-
-<!-- FEATURED PROJECTS -->
 
 ### Featured Projects
 
@@ -128,8 +150,6 @@
 
 ---
 
-<!-- GITHUB STATS -->
-
 ### GitHub Stats
 
 <div align="center">
@@ -149,8 +169,6 @@
 </div>
 
 ---
-
-<!-- CONTACT -->
 
 ### Let's Connect
 
