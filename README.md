@@ -178,6 +178,8 @@ Desarrollador Full Stack con enfoque en **arquitecturas escalables**, **ciberseg
 
   <em>The snake eats through every contribution I made this year — each green square devoured makes it grow, just like the classic Snake game. 🟩 ➜ 🐍</em>
 
+  <sub>Updated daily via GitHub Actions · Powered by <a href="https://github.com/Platane/snk">Platane/snk</a></sub>
+
   <br/><br/>
 
   <details>
