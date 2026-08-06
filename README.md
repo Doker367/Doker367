@@ -154,7 +154,23 @@ Desarrollador Full Stack con enfoque en **arquitecturas escalables**, **ciberseg
 
 <div align="center">
 
-  <img src="https://github-profile-trophy.vercel.app/?username=Doker367&theme=tokyonight&column=4&no-frame=true&no-bg=true" width="90%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Doker367&theme=tokyonight&column=4&no-frame=true" width="90%" />
+
+  <details>
+    <summary>Ver logros por categoría</summary>
+
+  | Categoría | Logro | Puntos |
+  |-----------|-------|--------|
+  | Commits | Hyper Committer | 433pt |
+  | Stars | First Star | 7pt |
+  | Followers | First Friend | 2pt |
+  | Issues | First Issue | 4pt |
+  | Pull Requests | First Pull | 2pt |
+  | Repositories | First Repository | 6pt |
+  | Experience | Newbie | 5pt |
+  | Reviews | Unknown | 0pt |
+
+  </details>
 
 </div>
 
@@ -168,14 +184,14 @@ Desarrollador Full Stack con enfoque en **arquitecturas escalables**, **ciberseg
       <div align="center">
         <strong style="color: #00b4d8; font-size: 16px;">Doker367's GitHub Stats</strong>
         <br/>
-        <img src="https://github-readme-stats.vercel.app/api?username=Doker367&show_icons=true&theme=tokyonight&bg_color=0d1117&title_color=00b4d8&icon_color=00b4d8&text_color=c9d1d9&border_color=1e3a5f&hide_border=true" width="100%" />
+        <img src="https://github-readme-stats.vercel.app/api?username=Doker367&show_icons=true&theme=tokyonight" width="100%" />
       </div>
     </td>
     <td width="50%" valign="top">
       <div align="center">
         <strong style="color: #00b4d8; font-size: 16px;">Most Used Languages</strong>
         <br/>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Doker367&layout=default&theme=tokyonight&bg_color=0d1117&title_color=00b4d8&text_color=c9d1d9&border_color=1e3a5f&hide_border=true&langs_count=8" width="100%" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Doker367&layout=default&theme=tokyonight&langs_count=8" width="100%" />
       </div>
     </td>
   </tr>
