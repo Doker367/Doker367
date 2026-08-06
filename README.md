@@ -4,16 +4,16 @@
   <p><strong>Full Stack Developer</strong> · México 🇲🇽</p>
 
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=39FF14&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=Building+secure+systems+with+clean+code;From+Flutter+to+PyTorch+%E2%80%94+full+stack" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00B4D8&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=Building+secure+systems+with+clean+code;From+Flutter+to+PyTorch+%E2%80%94+full+stack" alt="Typing SVG" />
   </a>
 
   <br/><br/>
 
   <a href="https://github.com/Doker367">
-    <img src="https://komarev.com/ghpvc/?username=Doker367&color=39ff14&style=flat-square&label=PROFILE+VIEWS" alt="profile views" />
+    <img src="https://komarev.com/ghpvc/?username=Doker367&color=00b4d8&style=flat-square&label=PROFILE+VIEWS" alt="profile views" />
   </a>
   <a href="mailto:blcdoker@gmail.com">
-    <img src="https://img.shields.io/badge/Email-blcdoker@gmail.com-39ff14?style=flat-square&logo=protonmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Email-blcdoker@gmail.com-00b4d8?style=flat-square&logo=protonmail&logoColor=white" />
   </a>
 
 </div>
@@ -142,7 +142,7 @@ Desarrollador Full Stack con enfoque en **arquitecturas escalables**, **ciberseg
       <em>More projects coming soon...</em>
       <br/><br/>
       <a href="https://github.com/Doker367?tab=repositories">
-        <img src="https://img.shields.io/badge/All_Repositories-→-39ff14?style=for-the-badge&logo=github&logoColor=white" />
+        <img src="https://img.shields.io/badge/All_Repositories-→-00b4d8?style=for-the-badge&logo=github&logoColor=white" />
       </a>
     </td>
   </tr>
@@ -150,21 +150,56 @@ Desarrollador Full Stack con enfoque en **arquitecturas escalables**, **ciberseg
 
 ---
 
-### GitHub Stats
+### 🏆 GitHub Milestones
 
 <div align="center">
 
-  <img src="https://github-readme-stats.vercel.app/api?username=Doker367&show_icons=true&theme=chartreuse-dark&bg_color=0d1117&title_color=39ff14&icon_color=39ff14&text_color=c9d1d9&border_color=39ff14&hide_border=true" width="48%" />
-  &nbsp;
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Doker367&theme=chartreuse-dark&background=0d1117&ring=39ff14&fire=39ff14&currStreakLabel=39ff14&sideLabels=c9d1d9&border=39ff14&border_radius=0" width="48%" />
-
-  <br/>
+  <img src="https://github-profile-trophy.vercel.app/?username=Doker367&theme=tokyonight&column=4&no-frame=true&no-bg=true" width="90%" />
 
 </div>
 
 ---
 
-### Contribution Graph Snake 🐍
+### 📊 Enterprise Development Analytics
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <div align="center">
+        <strong style="color: #00b4d8; font-size: 16px;">Doker367's GitHub Stats</strong>
+        <br/>
+        <img src="https://github-readme-stats.vercel.app/api?username=Doker367&show_icons=true&theme=tokyonight&bg_color=0d1117&title_color=00b4d8&icon_color=00b4d8&text_color=c9d1d9&border_color=1e3a5f&hide_border=true" width="100%" />
+      </div>
+    </td>
+    <td width="50%" valign="top">
+      <div align="center">
+        <strong style="color: #00b4d8; font-size: 16px;">Most Used Languages</strong>
+        <br/>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Doker367&layout=default&theme=tokyonight&bg_color=0d1117&title_color=00b4d8&text_color=c9d1d9&border_color=1e3a5f&hide_border=true&langs_count=8" width="100%" />
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <div align="center">
+        <strong style="color: #00b4d8; font-size: 16px;">Current Streak</strong>
+        <br/>
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Doker367&theme=tokyonight&background=0d1117&ring=00b4d8&fire=00b4d8&currStreakLabel=00b4d8&sideLabels=c9d1d9&border=1e3a5f&border_radius=0" width="100%" />
+      </div>
+    </td>
+    <td width="50%" valign="top">
+      <div align="center">
+        <strong style="color: #00b4d8; font-size: 16px;">Contribution Graph</strong>
+        <br/>
+        <img src="https://github-readme-activity-graph.vercel.app/graph?username=Doker367&bg_color=0d1117&color=00b4d8&line=00b4d8&point=ffffff&area=true&area_color=00b4d8&hide_border=true" width="100%" />
+      </div>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 🐍 Contribution Graph Snake
 
 <div align="center">
 
@@ -190,20 +225,6 @@ Desarrollador Full Stack con enfoque en **arquitecturas escalables**, **ciberseg
     <strong>Workflow:</strong> <code>.github/workflows/snake.yml</code> → <code>Platane/snk/svg-only@v3</code>
 
   </details>
-
-</div>
-
----
-
-### Activity Wave
-
-<div align="center">
-
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Doker367&bg_color=0d1117&color=39ff14&line=39ff14&point=ffffff&area=true&area_color=39ff14&hide_border=true" width="90%" />
-
-  <br/>
-
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Doker367&layout=compact&theme=chartreuse-dark&bg_color=0d1117&title_color=39ff14&text_color=c9d1d9&border_color=39ff14&hide_border=true&langs_count=8" width="40%" />
 
 </div>
 
