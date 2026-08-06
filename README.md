@@ -160,6 +160,46 @@ Desarrollador Full Stack con enfoque en **arquitecturas escalables**, **ciberseg
 
   <br/>
 
+</div>
+
+---
+
+### Contribution Graph Snake 🐍
+
+<div align="center">
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Doker367/Doker367/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Doker367/Doker367/output/github-snake.svg" />
+    <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/Doker367/Doker367/output/github-snake-dark.svg" />
+  </picture>
+
+  <br/><br/>
+
+  <em>The snake eats through every contribution I made this year — each green square devoured makes it grow, just like the classic Snake game. 🟩 ➜ 🐍</em>
+
+  <br/><br/>
+
+  <details>
+    <summary>⚙️ How this works (auto-generated daily)</summary>
+    <br/>
+
+    Esta animación se genera automáticamente mediante una GitHub Action que corre a diario. Consume el gráfico de contribuciones del último año y lo convierte en un SVG animado donde una serpiente va "comiendo" los cuadros verdes de actividad. Mientras más contribuciones tengas en un día, más crece la snake.
+
+    <br/><br/>
+
+    <b>Workflow:</b> <code>.github/workflows/snake.yml</code> → <code>Platane/snk</code> action
+
+  </details>
+
+</div>
+
+---
+
+### Activity Wave
+
+<div align="center">
+
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Doker367&bg_color=0d1117&color=39ff14&line=39ff14&point=ffffff&area=true&area_color=39ff14&hide_border=true" width="90%" />
 
   <br/>
