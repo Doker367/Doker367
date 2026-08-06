@@ -182,13 +182,10 @@ Desarrollador Full Stack con enfoque en **arquitecturas escalables**, **ciberseg
 
   <details>
     <summary>⚙️ How this works (auto-generated daily)</summary>
-    <br/>
 
-    Esta animación se genera automáticamente mediante una GitHub Action que corre a diario. Consume el gráfico de contribuciones del último año y lo convierte en un SVG animado donde una serpiente va "comiendo" los cuadros verdes de actividad. Mientras más contribuciones tengas en un día, más crece la snake.
+    This animation is generated automatically by a GitHub Action that runs daily. It reads the contribution graph from the last year and renders an animated SVG where a snake eats through every green activity square. The more contributions in a day, the longer the snake grows — just like the classic Snake game.
 
-    <br/><br/>
-
-    <b>Workflow:</b> <code>.github/workflows/snake.yml</code> → <code>Platane/snk</code> action
+    <strong>Workflow:</strong> <code>.github/workflows/snake.yml</code> → <code>Platane/snk/svg-only@v3</code>
 
   </details>
 
