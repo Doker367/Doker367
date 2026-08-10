@@ -152,133 +152,17 @@ Desarrollador Full Stack con enfoque en **arquitecturas escalables**, **ciberseg
 
 ### 🏆 GitHub Milestones
 
-<table width="100%" cellpadding="6">
-  <tr>
-    <td align="center" bgcolor="#161b22" style="border:2px solid #00b4d8;border-radius:8px;">
-      <span style="font-size:32px;">🏆</span><br/>
-      <strong style="color:#00b4d8;">Commits</strong><br/>
-      <span style="color:#c9d1d9;">Hyper Committer</span><br/>
-      <strong style="color:#e0e0e0;font-size:20px;">753pt</strong><br/>
-      <span style="color:#00b4d8;">████████</span><span style="color:#161b22;">██</span><br/>
-      <span style="color:#8b949e;">RANK 78%</span>
-    </td>
-    <td width="3%"></td>
-    <td align="center" bgcolor="#161b22" style="border:2px solid #0077b6;border-radius:8px;">
-      <span style="font-size:32px;">⭐</span><br/>
-      <strong style="color:#00b4d8;">Stars</strong><br/>
-      <span style="color:#c9d1d9;">First Star</span><br/>
-      <strong style="color:#e0e0e0;font-size:20px;">7pt</strong><br/>
-      <span style="color:#0077b6;">███████</span><span style="color:#161b22;">███</span><br/>
-      <span style="color:#8b949e;">RANK 67%</span>
-    </td>
-    <td width="3%"></td>
-    <td align="center" bgcolor="#161b22" style="border:2px solid #48cae4;border-radius:8px;">
-      <span style="font-size:32px;">👥</span><br/>
-      <strong style="color:#48cae4;">Followers</strong><br/>
-      <span style="color:#c9d1d9;">First Friend</span><br/>
-      <strong style="color:#e0e0e0;font-size:20px;">6pt</strong><br/>
-      <span style="color:#48cae4;">██</span><span style="color:#161b22;">████████</span><br/>
-      <span style="color:#8b949e;">RANK 11%</span>
-    </td>
-    <td width="3%"></td>
-    <td align="center" bgcolor="#161b22" style="border:2px solid #90e0ef;border-radius:8px;">
-      <span style="font-size:32px;">❗</span><br/>
-      <strong style="color:#90e0ef;">Issues</strong><br/>
-      <span style="color:#c9d1d9;">First Issue</span><br/>
-      <strong style="color:#e0e0e0;font-size:20px;">4pt</strong><br/>
-      <span style="color:#90e0ef;">███</span><span style="color:#161b22;">███████</span><br/>
-      <span style="color:#8b949e;">RANK 33%</span>
-    </td>
-  </tr>
-  <tr><td colspan="7" style="height:8px;"></td></tr>
-  <tr>
-    <td align="center" bgcolor="#161b22" style="border:2px solid #0d4175;border-radius:8px;">
-      <span style="font-size:32px;">🔀</span><br/>
-      <strong style="color:#00b4d8;">Pull Requests</strong><br/>
-      <span style="color:#c9d1d9;">First Pull</span><br/>
-      <strong style="color:#e0e0e0;font-size:20px;">2pt</strong><br/>
-      <span style="color:#0d4175;">██</span><span style="color:#161b22;">████████</span><br/>
-      <span style="color:#8b949e;">RANK 11%</span>
-    </td>
-    <td width="3%"></td>
-    <td align="center" bgcolor="#161b22" style="border:2px solid #00b4d8;border-radius:8px;">
-      <span style="font-size:32px;">📦</span><br/>
-      <strong style="color:#00b4d8;">Repositories</strong><br/>
-      <span style="color:#c9d1d9;">First Repository</span><br/>
-      <strong style="color:#e0e0e0;font-size:20px;">39pt</strong><br/>
-      <span style="color:#00b4d8;">█████</span><span style="color:#161b22;">█████</span><br/>
-      <span style="color:#8b949e;">RANK 56%</span>
-    </td>
-    <td width="3%"></td>
-    <td align="center" bgcolor="#161b22" style="border:2px solid #0077b6;border-radius:8px;">
-      <span style="font-size:32px;">📈</span><br/>
-      <strong style="color:#0077b6;">Experience</strong><br/>
-      <span style="color:#c9d1d9;">Newbie</span><br/>
-      <strong style="color:#e0e0e0;font-size:20px;">5pt</strong><br/>
-      <span style="color:#0077b6;">███████</span><span style="color:#161b22;">███</span><br/>
-      <span style="color:#8b949e;">RANK 75%</span>
-    </td>
-    <td width="3%"></td>
-    <td align="center" bgcolor="#161b22" style="border:2px solid #0d4175;border-radius:8px;">
-      <span style="font-size:32px;">🔍</span><br/>
-      <strong style="color:#48cae4;">Reviews</strong><br/>
-      <span style="color:#c9d1d9;">Unknown</span><br/>
-      <strong style="color:#e0e0e0;font-size:20px;">0pt</strong><br/>
-      <span style="color:#161b22;">██████████</span><br/>
-      <span style="color:#8b949e;">RANK 0%</span>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Doker367/Doker367/output/milestones.svg" alt="GitHub Milestones" />
+</div>
 
 ---
 
 ### 📊 Enterprise Development Analytics
 
-<table width="100%">
-  <tr>
-    <td width="48%" valign="top" bgcolor="#161b22" style="border:1px solid #1e3a5f;border-radius:8px;padding:16px;">
-      <strong style="color:#00b4d8;font-size:14px;">Doker367's GitHub Stats</strong>
-      <br/><br/>
-      <table width="100%" cellpadding="4">
-        <tr><td style="color:#8b949e;">⭐ Total Stars Earned</td><td align="right" style="color:#e0e0e0;"><strong>4</strong></td></tr>
-        <tr><td style="color:#8b949e;">🔵 Total Commits (2026)</td><td align="right" style="color:#e0e0e0;"><strong>753</strong></td></tr>
-        <tr><td style="color:#8b949e;">🔀 Total PRs</td><td align="right" style="color:#e0e0e0;"><strong>2</strong></td></tr>
-        <tr><td style="color:#8b949e;">❗ Total Issues</td><td align="right" style="color:#e0e0e0;"><strong>4</strong></td></tr>
-        <tr><td style="color:#8b949e;">📦 Contributed to (last year)</td><td align="right" style="color:#e0e0e0;"><strong>39</strong></td></tr>
-      </table>
-      <div align="center" style="margin-top:10px;">
-        <span style="color:#00b4d8;font-size:28px;font-weight:bold;">A+</span>
-      </div>
-    </td>
-    <td width="4%"></td>
-    <td width="48%" valign="top" bgcolor="#161b22" style="border:1px solid #1e3a5f;border-radius:8px;padding:16px;">
-      <strong style="color:#00b4d8;font-size:14px;">Most Used Languages</strong>
-      <br/><br/>
-      <table width="100%" cellpadding="4">
-        <tr><td style="color:#c9d1d9;">JavaScript</td><td style="color:#00b4d8;">████████</td><td style="color:#8b949e;" align="right">28%</td></tr>
-        <tr><td style="color:#c9d1d9;">Python</td><td style="color:#0077b6;">██████</td><td style="color:#8b949e;" align="right">21%</td></tr>
-        <tr><td style="color:#c9d1d9;">TypeScript</td><td style="color:#48cae4;">███</td><td style="color:#8b949e;" align="right">8%</td></tr>
-        <tr><td style="color:#c9d1d9;">HTML</td><td style="color:#90e0ef;">███</td><td style="color:#8b949e;" align="right">8%</td></tr>
-        <tr><td style="color:#c9d1d9;">Dart</td><td style="color:#0d4175;">█</td><td style="color:#8b949e;" align="right">3%</td></tr>
-        <tr><td style="color:#c9d1d9;">Go</td><td style="color:#0d4175;">█</td><td style="color:#8b949e;" align="right">3%</td></tr>
-      </table>
-    </td>
-  </tr>
-  <tr><td colspan="3" style="height:8px;"></td></tr>
-  <tr>
-    <td width="48%" valign="top" bgcolor="#161b22" style="border:1px solid #1e3a5f;border-radius:8px;padding:16px;">
-      <strong style="color:#00b4d8;font-size:14px;">Current Streak</strong>
-      <br/><br/>
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Doker367&theme=tokyonight&background=0d1117&ring=00b4d8&fire=00b4d8&currStreakLabel=00b4d8&sideLabels=c9d1d9&border=1e3a5f&border_radius=0" width="100%" />
-    </td>
-    <td width="4%"></td>
-    <td width="48%" valign="top" bgcolor="#161b22" style="border:1px solid #1e3a5f;border-radius:8px;padding:16px;">
-      <strong style="color:#00b4d8;font-size:14px;">Contribution Graph</strong>
-      <br/><br/>
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=Doker367&bg_color=0d1117&color=00b4d8&line=00b4d8&point=ffffff&area=true&area_color=00b4d8&hide_border=true" width="100%" />
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Doker367/Doker367/output/stats.svg" alt="GitHub Stats" />
+</div>
 
 ---
 
