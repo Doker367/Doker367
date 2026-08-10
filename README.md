@@ -152,63 +152,154 @@ Desarrollador Full Stack con enfoque en **arquitecturas escalables**, **ciberseg
 
 ### 🏆 GitHub Milestones
 
-<div align="center">
-
-  <img src="https://github-profile-trophy.vercel.app/?username=Doker367&theme=tokyonight&column=4&no-frame=true" width="90%" />
-
-  <details>
-    <summary>Ver logros por categoría</summary>
-
-  | Categoría | Logro | Puntos |
-  |-----------|-------|--------|
-  | Commits | Hyper Committer | 433pt |
-  | Stars | First Star | 7pt |
-  | Followers | First Friend | 2pt |
-  | Issues | First Issue | 4pt |
-  | Pull Requests | First Pull | 2pt |
-  | Repositories | First Repository | 6pt |
-  | Experience | Newbie | 5pt |
-  | Reviews | Unknown | 0pt |
-
-  </details>
-
-</div>
+<table width="100%">
+  <tr>
+    <td align="center" width="25%" bgcolor="#161b22" style="border:1px solid #00b4d8;border-radius:8px;padding:14px 8px;">
+      <span style="font-size:28px;">🏆</span><br/>
+      <strong style="color:#00b4d8;">Commits</strong><br/>
+      <span style="color:#c9d1d9;font-size:11px;">Hyper Committer</span><br/>
+      <strong style="color:#e0e0e0;font-size:18px;">753pt</strong><br/>
+      <table width="80%" cellpadding="0" cellspacing="0" align="center" style="margin-top:6px;"><tr><td bgcolor="#0d1117" style="height:5px;border-radius:3px;"><table width="78%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#00b4d8" style="height:5px;border-radius:3px;"></td></tr></table></td></tr></table>
+      <span style="color:#8b949e;font-size:10px;">RANK 78%</span>
+    </td>
+    <td width="4%"></td>
+    <td align="center" width="22%" bgcolor="#161b22" style="border:1px solid #0077b6;border-radius:8px;padding:14px 8px;">
+      <span style="font-size:28px;">⭐</span><br/>
+      <strong style="color:#00b4d8;">Stars</strong><br/>
+      <span style="color:#c9d1d9;font-size:11px;">First Star</span><br/>
+      <strong style="color:#e0e0e0;font-size:18px;">7pt</strong><br/>
+      <table width="80%" cellpadding="0" cellspacing="0" align="center" style="margin-top:6px;"><tr><td bgcolor="#0d1117" style="height:5px;border-radius:3px;"><table width="67%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#0077b6" style="height:5px;border-radius:3px;"></td></tr></table></td></tr></table>
+      <span style="color:#8b949e;font-size:10px;">RANK 67%</span>
+    </td>
+    <td width="4%"></td>
+    <td align="center" width="22%" bgcolor="#161b22" style="border:1px solid #48cae4;border-radius:8px;padding:14px 8px;">
+      <span style="font-size:28px;">👥</span><br/>
+      <strong style="color:#48cae4;">Followers</strong><br/>
+      <span style="color:#c9d1d9;font-size:11px;">First Friend</span><br/>
+      <strong style="color:#e0e0e0;font-size:18px;">6pt</strong><br/>
+      <table width="80%" cellpadding="0" cellspacing="0" align="center" style="margin-top:6px;"><tr><td bgcolor="#0d1117" style="height:5px;border-radius:3px;"><table width="11%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#48cae4" style="height:5px;border-radius:3px;"></td></tr></table></td></tr></table>
+      <span style="color:#8b949e;font-size:10px;">RANK 11%</span>
+    </td>
+    <td width="4%"></td>
+    <td align="center" width="22%" bgcolor="#161b22" style="border:1px solid #90e0ef;border-radius:8px;padding:14px 8px;">
+      <span style="font-size:28px;">❗</span><br/>
+      <strong style="color:#90e0ef;">Issues</strong><br/>
+      <span style="color:#c9d1d9;font-size:11px;">First Issue</span><br/>
+      <strong style="color:#e0e0e0;font-size:18px;">4pt</strong><br/>
+      <table width="80%" cellpadding="0" cellspacing="0" align="center" style="margin-top:6px;"><tr><td bgcolor="#0d1117" style="height:5px;border-radius:3px;"><table width="33%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#90e0ef" style="height:5px;border-radius:3px;"></td></tr></table></td></tr></table>
+      <span style="color:#8b949e;font-size:10px;">RANK 33%</span>
+    </td>
+  </tr>
+  <tr><td colspan="7" style="height:10px;"></td></tr>
+  <tr>
+    <td align="center" width="25%" bgcolor="#161b22" style="border:1px solid #0d4175;border-radius:8px;padding:14px 8px;">
+      <span style="font-size:28px;">🔀</span><br/>
+      <strong style="color:#00b4d8;">Pull Requests</strong><br/>
+      <span style="color:#c9d1d9;font-size:11px;">First Pull</span><br/>
+      <strong style="color:#e0e0e0;font-size:18px;">2pt</strong><br/>
+      <table width="80%" cellpadding="0" cellspacing="0" align="center" style="margin-top:6px;"><tr><td bgcolor="#0d1117" style="height:5px;border-radius:3px;"><table width="11%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#0d4175" style="height:5px;border-radius:3px;"></td></tr></table></td></tr></table>
+      <span style="color:#8b949e;font-size:10px;">RANK 11%</span>
+    </td>
+    <td width="4%"></td>
+    <td align="center" width="22%" bgcolor="#161b22" style="border:1px solid #00b4d8;border-radius:8px;padding:14px 8px;">
+      <span style="font-size:28px;">📦</span><br/>
+      <strong style="color:#00b4d8;">Repositories</strong><br/>
+      <span style="color:#c9d1d9;font-size:11px;">First Repository</span><br/>
+      <strong style="color:#e0e0e0;font-size:18px;">39pt</strong><br/>
+      <table width="80%" cellpadding="0" cellspacing="0" align="center" style="margin-top:6px;"><tr><td bgcolor="#0d1117" style="height:5px;border-radius:3px;"><table width="56%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#00b4d8" style="height:5px;border-radius:3px;"></td></tr></table></td></tr></table>
+      <span style="color:#8b949e;font-size:10px;">RANK 56%</span>
+    </td>
+    <td width="4%"></td>
+    <td align="center" width="22%" bgcolor="#161b22" style="border:1px solid #0077b6;border-radius:8px;padding:14px 8px;">
+      <span style="font-size:28px;">📈</span><br/>
+      <strong style="color:#0077b6;">Experience</strong><br/>
+      <span style="color:#c9d1d9;font-size:11px;">Newbie</span><br/>
+      <strong style="color:#e0e0e0;font-size:18px;">5pt</strong><br/>
+      <table width="80%" cellpadding="0" cellspacing="0" align="center" style="margin-top:6px;"><tr><td bgcolor="#0d1117" style="height:5px;border-radius:3px;"><table width="75%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#0077b6" style="height:5px;border-radius:3px;"></td></tr></table></td></tr></table>
+      <span style="color:#8b949e;font-size:10px;">RANK 75%</span>
+    </td>
+    <td width="4%"></td>
+    <td align="center" width="22%" bgcolor="#161b22" style="border:1px solid #0d4175;border-radius:8px;padding:14px 8px;">
+      <span style="font-size:28px;">🔍</span><br/>
+      <strong style="color:#48cae4;">Reviews</strong><br/>
+      <span style="color:#c9d1d9;font-size:11px;">Unknown</span><br/>
+      <strong style="color:#e0e0e0;font-size:18px;">0pt</strong><br/>
+      <table width="80%" cellpadding="0" cellspacing="0" align="center" style="margin-top:6px;"><tr><td bgcolor="#0d1117" style="height:5px;border-radius:3px;"><table width="1%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#0d4175" style="height:5px;border-radius:3px;"></td></tr></table></td></tr></table>
+      <span style="color:#8b949e;font-size:10px;">RANK 0%</span>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ### 📊 Enterprise Development Analytics
 
-<table>
+<table width="100%">
   <tr>
-    <td width="50%" valign="top">
-      <div align="center">
-        <strong style="color: #00b4d8; font-size: 16px;">Doker367's GitHub Stats</strong>
-        <br/>
-        <img src="https://github-readme-stats.vercel.app/api?username=Doker367&show_icons=true&theme=tokyonight" width="100%" />
+    <td width="48%" valign="top" bgcolor="#161b22" style="border:1px solid #1e3a5f;border-radius:8px;padding:16px;">
+      <strong style="color:#00b4d8;font-size:14px;">Doker367's GitHub Stats</strong>
+      <br/><br/>
+      <table width="100%" cellpadding="4">
+        <tr><td style="color:#8b949e;">⭐ Total Stars Earned</td><td align="right" style="color:#e0e0e0;"><strong>4</strong></td></tr>
+        <tr><td style="color:#8b949e;">🔵 Total Commits (2026)</td><td align="right" style="color:#e0e0e0;"><strong>753</strong></td></tr>
+        <tr><td style="color:#8b949e;">🔀 Total PRs</td><td align="right" style="color:#e0e0e0;"><strong>2</strong></td></tr>
+        <tr><td style="color:#8b949e;">❗ Total Issues</td><td align="right" style="color:#e0e0e0;"><strong>4</strong></td></tr>
+        <tr><td style="color:#8b949e;">📦 Contributed to (last year)</td><td align="right" style="color:#e0e0e0;"><strong>39</strong></td></tr>
+      </table>
+      <div align="center" style="margin-top:10px;">
+        <span style="color:#00b4d8;font-size:28px;font-weight:bold;">A+</span>
       </div>
     </td>
-    <td width="50%" valign="top">
-      <div align="center">
-        <strong style="color: #00b4d8; font-size: 16px;">Most Used Languages</strong>
-        <br/>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Doker367&layout=default&theme=tokyonight&langs_count=8" width="100%" />
-      </div>
+    <td width="4%"></td>
+    <td width="48%" valign="top" bgcolor="#161b22" style="border:1px solid #1e3a5f;border-radius:8px;padding:16px;">
+      <strong style="color:#00b4d8;font-size:14px;">Most Used Languages</strong>
+      <br/><br/>
+      <table width="100%" cellpadding="3">
+        <tr>
+          <td style="color:#c9d1d9;width:40%;">JavaScript</td>
+          <td style="width:50%;"><table width="100%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#0d1117" style="height:8px;border-radius:4px;"><table width="28%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#00b4d8" style="height:8px;border-radius:4px;"></td></tr></table></td></tr></table></td>
+          <td style="color:#8b949e;text-align:right;width:10%;">28%</td>
+        </tr>
+        <tr>
+          <td style="color:#c9d1d9;">Python</td>
+          <td><table width="100%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#0d1117" style="height:8px;border-radius:4px;"><table width="21%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#0077b6" style="height:8px;border-radius:4px;"></td></tr></table></td></tr></table></td>
+          <td style="color:#8b949e;text-align:right;">21%</td>
+        </tr>
+        <tr>
+          <td style="color:#c9d1d9;">TypeScript</td>
+          <td><table width="100%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#0d1117" style="height:8px;border-radius:4px;"><table width="8%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#48cae4" style="height:8px;border-radius:4px;"></td></tr></table></td></tr></table></td>
+          <td style="color:#8b949e;text-align:right;">8%</td>
+        </tr>
+        <tr>
+          <td style="color:#c9d1d9;">HTML</td>
+          <td><table width="100%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#0d1117" style="height:8px;border-radius:4px;"><table width="8%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#90e0ef" style="height:8px;border-radius:4px;"></td></tr></table></td></tr></table></td>
+          <td style="color:#8b949e;text-align:right;">8%</td>
+        </tr>
+        <tr>
+          <td style="color:#c9d1d9;">Dart</td>
+          <td><table width="100%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#0d1117" style="height:8px;border-radius:4px;"><table width="3%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#0d4175" style="height:8px;border-radius:4px;"></td></tr></table></td></tr></table></td>
+          <td style="color:#8b949e;text-align:right;">3%</td>
+        </tr>
+        <tr>
+          <td style="color:#c9d1d9;">Go</td>
+          <td><table width="100%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#0d1117" style="height:8px;border-radius:4px;"><table width="3%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#0d4175" style="height:8px;border-radius:4px;"></td></tr></table></td></tr></table></td>
+          <td style="color:#8b949e;text-align:right;">3%</td>
+        </tr>
+      </table>
     </td>
   </tr>
+  <tr><td colspan="3" style="height:8px;"></td></tr>
   <tr>
-    <td width="50%" valign="top">
-      <div align="center">
-        <strong style="color: #00b4d8; font-size: 16px;">Current Streak</strong>
-        <br/>
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Doker367&theme=tokyonight&background=0d1117&ring=00b4d8&fire=00b4d8&currStreakLabel=00b4d8&sideLabels=c9d1d9&border=1e3a5f&border_radius=0" width="100%" />
-      </div>
+    <td width="48%" valign="top" bgcolor="#161b22" style="border:1px solid #1e3a5f;border-radius:8px;padding:16px;">
+      <strong style="color:#00b4d8;font-size:14px;">Current Streak</strong>
+      <br/><br/>
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Doker367&theme=tokyonight&background=0d1117&ring=00b4d8&fire=00b4d8&currStreakLabel=00b4d8&sideLabels=c9d1d9&border=1e3a5f&border_radius=0" width="100%" />
     </td>
-    <td width="50%" valign="top">
-      <div align="center">
-        <strong style="color: #00b4d8; font-size: 16px;">Contribution Graph</strong>
-        <br/>
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=Doker367&bg_color=0d1117&color=00b4d8&line=00b4d8&point=ffffff&area=true&area_color=00b4d8&hide_border=true" width="100%" />
-      </div>
+    <td width="4%"></td>
+    <td width="48%" valign="top" bgcolor="#161b22" style="border:1px solid #1e3a5f;border-radius:8px;padding:16px;">
+      <strong style="color:#00b4d8;font-size:14px;">Contribution Graph</strong>
+      <br/><br/>
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=Doker367&bg_color=0d1117&color=00b4d8&line=00b4d8&point=ffffff&area=true&area_color=00b4d8&hide_border=true" width="100%" />
     </td>
   </tr>
 </table>
@@ -224,23 +315,6 @@ Desarrollador Full Stack con enfoque en **arquitecturas escalables**, **ciberseg
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Doker367/Doker367/output/github-snake.svg" />
     <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/Doker367/Doker367/output/github-snake-dark.svg" />
   </picture>
-
-  <br/><br/>
-
-  <em>The snake eats through every contribution I made this year — each green square devoured makes it grow, just like the classic Snake game. 🟩 ➜ 🐍</em>
-
-  <sub>Updated daily via GitHub Actions · Powered by <a href="https://github.com/Platane/snk">Platane/snk</a></sub>
-
-  <br/><br/>
-
-  <details>
-    <summary>⚙️ How this works (auto-generated daily)</summary>
-
-    This animation is generated automatically by a GitHub Action that runs daily. It reads the contribution graph from the last year and renders an animated SVG where a snake eats through every green activity square. The more contributions in a day, the longer the snake grows — just like the classic Snake game.
-
-    <strong>Workflow:</strong> <code>.github/workflows/snake.yml</code> → <code>Platane/snk/svg-only@v3</code>
-
-  </details>
 
 </div>
 
