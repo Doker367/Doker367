@@ -16,13 +16,12 @@ LIGHTER = "#90e0ef"
 DARK_ACCENT = "#0d4175"
 TEXT = "#e0e0e0"
 TEXT_SEC = "#8b949e"
-WHITE = "#ffffff"
 
 W = 995
-CARD_W = 230
-CARD_H = 170
-GAP = 15
-PAD = 20
+CARD_W = 225
+CARD_H = 160
+GAP = 14
+PAD = 24
 
 
 def fetch_json(url):
@@ -59,92 +58,89 @@ def get_github_data(username):
 def svg_header(w, h):
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">
 <defs>
-  <linearGradient id="cardGrad" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0%" stop-color="{CARD_BG}" stop-opacity="1"/>
-    <stop offset="100%" stop-color="#0d1117" stop-opacity="1"/>
-  </linearGradient>
   <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="0">
     <stop offset="0%" stop-color="{SECONDARY}"/>
     <stop offset="100%" stop-color="{PRIMARY}"/>
   </linearGradient>
-  <linearGradient id="lightGrad" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%" stop-color="{PRIMARY}"/>
-    <stop offset="100%" stop-color="{LIGHT}"/>
-  </linearGradient>
-  <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
-    <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="{PRIMARY}" flood-opacity="0.15"/>
-  </filter>
 </defs>
 <rect width="{w}" height="{h}" fill="{BG}" rx="12"/>
 '''
 
 
 def rounded_rect(x, y, w, h, color=CARD_BG, border=CARD_BORDER, rx=8):
-    return f'''<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{rx}" fill="{color}" stroke="{border}" stroke-width="1.5"/>
-'''
+    return f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{rx}" fill="{color}" stroke="{border}" stroke-width="1.5"/>\n'
 
 
-def text(x, y, content, size=12, color=TEXT, anchor="middle", weight="normal"):
+def text_el(x, y, content, size=12, color=TEXT, anchor="middle", weight="normal"):
     return f'<text x="{x}" y="{y}" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="{size}" fill="{color}" text-anchor="{anchor}" font-weight="{weight}">{content}</text>\n'
 
 
 def progress_bar(x, y, w, h, pct, color=PRIMARY):
     filled = int(w * min(pct, 100) / 100)
-    empty = w - filled
     return (
         f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{h//2}" fill="{CARD_BG}"/>\n'
         f'<rect x="{x}" y="{y}" width="{filled}" height="{h}" rx="{h//2}" fill="{color}"/>\n'
     )
 
 
+def circle_icon(x, y, r, color, label):
+    """Draw a circle with a single character inside."""
+    return (
+        f'<circle cx="{x}" cy="{y}" r="{r}" fill="{color}" opacity="0.2"/>\n'
+        f'<circle cx="{x}" cy="{y}" r="{r}" fill="none" stroke="{color}" stroke-width="1.5"/>\n'
+        f'<text x="{x}" y="{y + 5}" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="14" fill="{color}" text-anchor="middle" font-weight="bold">{label}</text>\n'
+    )
+
+
 # ── Milestones SVG ────────────────────────────────────────────
 def generate_milestones(data):
     milestones = [
-        ("Trophy", "Commits", "Hyper Committer", 753, 78, PRIMARY),
-        ("Star", "Stars", "First Star", 7, 67, SECONDARY),
-        ("People", "Followers", "First Friend", data["followers"], 11, LIGHT),
-        ("Alert", "Issues", "First Issue", 4, 33, LIGHTER),
-        ("GitPullRequest", "Pull Requests", "First Pull", 2, 11, DARK_ACCENT),
-        ("Repo", "Repositories", "First Repository", data["total_repos"], 56, PRIMARY),
-        ("Graph", "Experience", "Newbie", 5, 75, SECONDARY),
-        ("Eye", "Reviews", "Unknown", 0, 0, DARK_ACCENT),
+        ("T", "Commits", "Hyper Committer", 753, 78, PRIMARY),
+        ("\u2605", "Stars", "First Star", 7, 67, SECONDARY),
+        ("\u2665", "Followers", "First Friend", data["followers"], 11, LIGHT),
+        ("!", "Issues", "First Issue", 4, 33, LIGHTER),
+        ("+", "Pull Requests", "First Pull", 2, 11, DARK_ACCENT),
+        ("\u25A0", "Repositories", "First Repository", data["total_repos"], 56, PRIMARY),
+        ("\u25B2", "Experience", "Newbie", 5, 75, SECONDARY),
+        ("\u25CF", "Reviews", "Unknown", 0, 0, DARK_ACCENT),
     ]
 
     rows = 2
     cols = 4
-    h = PAD + 50 + rows * (CARD_H + GAP) + PAD
+    h = PAD + rows * (CARD_H + GAP) + PAD
 
     svg = svg_header(W, h)
-    svg += text(W // 2, PAD + 28, "GitHub Milestones", 20, PRIMARY, weight="bold")
 
     for i, (icon, cat, rank, pts, pct, clr) in enumerate(milestones):
         row = i // cols
         col = i % cols
         cx = PAD + col * (CARD_W + GAP)
-        cy = PAD + 50 + row * (CARD_H + GAP)
+        cy = PAD + row * (CARD_H + GAP)
 
         svg += rounded_rect(cx, cy, CARD_W, CARD_H, border=clr)
 
-        # Icon
-        svg += text(cx + CARD_W // 2, cy + 30, icon, 22, clr)
+        # Circle icon
+        icon_x = cx + CARD_W // 2
+        icon_y = cy + 28
+        svg += circle_icon(icon_x, icon_y, 16, clr, icon)
 
-        # Category
-        svg += text(cx + CARD_W // 2, cy + 52, cat, 13, clr, weight="bold")
+        # Category name
+        svg += text_el(cx + CARD_W // 2, cy + 58, cat, 13, clr, weight="bold")
 
-        # Rank
-        svg += text(cx + CARD_W // 2, cy + 68, rank, 10, TEXT_SEC)
+        # Rank subtitle
+        svg += text_el(cx + CARD_W // 2, cy + 73, rank, 10, TEXT_SEC)
 
         # Points
-        svg += text(cx + CARD_W // 2, cy + 92, f"{pts}pt", 20, TEXT, weight="bold")
+        svg += text_el(cx + CARD_W // 2, cy + 98, f"{pts}pt", 22, TEXT, weight="bold")
 
         # Progress bar
         bar_x = cx + 20
-        bar_y = cy + 105
+        bar_y = cy + 112
         bar_w = CARD_W - 40
-        svg += progress_bar(bar_x, bar_y, bar_w, 8, pct, clr)
+        svg += progress_bar(bar_x, bar_y, bar_w, 7, pct, clr)
 
         # Rank label
-        svg += text(cx + CARD_W // 2, cy + 135, f"RANK {pct}%", 10, TEXT_SEC)
+        svg += text_el(cx + CARD_W // 2, cy + 140, f"RANK {pct}%", 10, TEXT_SEC)
 
     svg += "</svg>"
     return svg, h
@@ -152,47 +148,61 @@ def generate_milestones(data):
 
 # ── Stats SVG ─────────────────────────────────────────────────
 def generate_stats(data):
-    h = 300
+    h = 310
     svg = svg_header(W, h)
-    svg += text(W // 2, 30, "Enterprise Development Analytics", 20, PRIMARY, weight="bold")
 
-    # Left: Stats card
-    lx, ly, lw, lh = PAD, 55, 480, 230
+    # ── Left card: GitHub Stats ──
+    lx, ly, lw, lh = PAD, 0, 480, 300
     svg += rounded_rect(lx, ly, lw, lh)
-    svg += text(lx + lw // 2, ly + 28, f"{data['username']}'s GitHub Stats", 14, PRIMARY, weight="bold")
+    svg += text_el(lx + lw // 2, ly + 28, f"{data['username']}'s GitHub Stats", 15, PRIMARY, weight="bold")
+
+    # Divider line
+    svg += f'<line x1="{lx + 20}" y1="{ly + 40}" x2="{lx + lw - 20}" y2="{ly + 40}" stroke="{CARD_BORDER}" stroke-width="1"/>\n'
 
     stats = [
-        ("Star", "Total Stars Earned", data["total_stars"]),
-        ("Commit", "Total Commits (2026)", 755),
-        ("GitPullRequest", "Total PRs", 2),
-        ("Issue", "Total Issues", 4),
-        ("People", "Contributed to (last year)", data["total_repos"]),
+        ("\u2605", "Total Stars Earned", data["total_stars"]),
+        ("\u25CF", "Total Commits (2026)", 755),
+        ("\u2194", "Total PRs", 2),
+        ("!", "Total Issues", 4),
+        ("\u25A0", "Contributed to (last year)", data["total_repos"]),
     ]
 
     for i, (icon, label, val) in enumerate(stats):
-        sy = ly + 55 + i * 32
-        svg += text(lx + 20, sy, icon, 12, PRIMARY, "start")
-        svg += text(lx + 42, sy, label, 12, TEXT_SEC, "start")
-        svg += text(lx + lw - 20, sy, str(val), 13, TEXT, "end", "bold")
+        sy = ly + 65 + i * 36
+        # Icon circle
+        svg += f'<circle cx="{lx + 22}" cy="{sy - 4}" r="10" fill="{PRIMARY}" opacity="0.15"/>\n'
+        svg += text_el(lx + 22, sy + 1, icon, 10, PRIMARY)
+        # Label
+        svg += text_el(lx + 42, sy, label, 13, TEXT_SEC, "start")
+        # Value
+        svg += text_el(lx + lw - 24, sy, str(val), 14, TEXT, "end", "bold")
 
     # Grade badge
-    svg += f'<circle cx="{lx + lw // 2}" cy="{ly + lh - 25}" r="18" fill="{PRIMARY}" opacity="0.15"/>\n'
-    svg += text(lx + lw // 2, ly + lh - 20, "A+", 18, PRIMARY, weight="bold")
+    badge_cx = lx + lw // 2
+    badge_cy = ly + lh - 35
+    svg += f'<circle cx="{badge_cx}" cy="{badge_cy}" r="22" fill="{PRIMARY}" opacity="0.12"/>\n'
+    svg += f'<circle cx="{badge_cx}" cy="{badge_cy}" r="22" fill="none" stroke="{PRIMARY}" stroke-width="2"/>\n'
+    svg += text_el(badge_cx, badge_cy + 7, "A+", 22, PRIMARY, weight="bold")
 
-    # Right: Languages card
-    rx, ry, rw, rh = PAD + lw + GAP, 55, W - PAD * 2 - lw - GAP, 230
+    # ── Right card: Languages ──
+    rx, ry, rw, rh = PAD + lw + GAP, 0, W - PAD * 2 - lw - GAP, 300
     svg += rounded_rect(rx, ry, rw, rh)
-    svg += text(rx + rw // 2, ry + 28, "Most Used Languages", 14, PRIMARY, weight="bold")
+    svg += text_el(rx + rw // 2, ry + 28, "Most Used Languages", 15, PRIMARY, weight="bold")
+
+    # Divider line
+    svg += f'<line x1="{rx + 20}" y1="{ry + 40}" x2="{rx + rw - 20}" y2="{ry + 40}" stroke="{CARD_BORDER}" stroke-width="1"/>\n'
 
     total = sum(c for _, c in data["languages"])
     bar_colors = [PRIMARY, SECONDARY, LIGHT, LIGHTER, DARK_ACCENT, "#4a6fa5"]
 
     for i, (lang, count) in enumerate(data["languages"]):
         pct = (count / total * 100) if total else 0
-        ly2 = ry + 55 + i * 30
-        svg += text(rx + 20, ly2, lang, 11, TEXT, "start")
-        svg += progress_bar(rx + 120, ly2 - 8, rw - 200, 10, pct, bar_colors[i % len(bar_colors)])
-        svg += text(rx + rw - 20, ly2, f"{pct:.0f}%", 11, TEXT_SEC, "end")
+        ly2 = ry + 65 + i * 38
+        svg += text_el(rx + 20, ly2, lang, 12, TEXT, "start")
+        bar_x = rx + 130
+        bar_w = rw - 200
+        svg += progress_bar(bar_x, ly2 - 8, bar_w, 10, pct, bar_colors[i % len(bar_colors)])
+        svg += text_el(rx + rw - 20, ly2, f"{pct:.0f}%", 11, TEXT_SEC, "end")
 
     svg += "</svg>"
     return svg
