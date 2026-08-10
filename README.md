@@ -152,80 +152,80 @@ Desarrollador Full Stack con enfoque en **arquitecturas escalables**, **ciberseg
 
 ### 🏆 GitHub Milestones
 
-<table width="100%">
+<table width="100%" cellpadding="6">
   <tr>
-    <td align="center" width="25%" bgcolor="#161b22" style="border:1px solid #00b4d8;border-radius:8px;padding:14px 8px;">
-      <span style="font-size:28px;">🏆</span><br/>
+    <td align="center" bgcolor="#161b22" style="border:2px solid #00b4d8;border-radius:8px;">
+      <span style="font-size:32px;">🏆</span><br/>
       <strong style="color:#00b4d8;">Commits</strong><br/>
-      <span style="color:#c9d1d9;font-size:11px;">Hyper Committer</span><br/>
-      <strong style="color:#e0e0e0;font-size:18px;">753pt</strong><br/>
-      <table width="80%" cellpadding="0" cellspacing="0" align="center" style="margin-top:6px;"><tr><td bgcolor="#0d1117" style="height:5px;border-radius:3px;"><table width="78%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#00b4d8" style="height:5px;border-radius:3px;"></td></tr></table></td></tr></table>
-      <span style="color:#8b949e;font-size:10px;">RANK 78%</span>
+      <span style="color:#c9d1d9;">Hyper Committer</span><br/>
+      <strong style="color:#e0e0e0;font-size:20px;">753pt</strong><br/>
+      <span style="color:#00b4d8;">████████</span><span style="color:#161b22;">██</span><br/>
+      <span style="color:#8b949e;">RANK 78%</span>
     </td>
-    <td width="4%"></td>
-    <td align="center" width="22%" bgcolor="#161b22" style="border:1px solid #0077b6;border-radius:8px;padding:14px 8px;">
-      <span style="font-size:28px;">⭐</span><br/>
+    <td width="3%"></td>
+    <td align="center" bgcolor="#161b22" style="border:2px solid #0077b6;border-radius:8px;">
+      <span style="font-size:32px;">⭐</span><br/>
       <strong style="color:#00b4d8;">Stars</strong><br/>
-      <span style="color:#c9d1d9;font-size:11px;">First Star</span><br/>
-      <strong style="color:#e0e0e0;font-size:18px;">7pt</strong><br/>
-      <table width="80%" cellpadding="0" cellspacing="0" align="center" style="margin-top:6px;"><tr><td bgcolor="#0d1117" style="height:5px;border-radius:3px;"><table width="67%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#0077b6" style="height:5px;border-radius:3px;"></td></tr></table></td></tr></table>
-      <span style="color:#8b949e;font-size:10px;">RANK 67%</span>
+      <span style="color:#c9d1d9;">First Star</span><br/>
+      <strong style="color:#e0e0e0;font-size:20px;">7pt</strong><br/>
+      <span style="color:#0077b6;">███████</span><span style="color:#161b22;">███</span><br/>
+      <span style="color:#8b949e;">RANK 67%</span>
     </td>
-    <td width="4%"></td>
-    <td align="center" width="22%" bgcolor="#161b22" style="border:1px solid #48cae4;border-radius:8px;padding:14px 8px;">
-      <span style="font-size:28px;">👥</span><br/>
+    <td width="3%"></td>
+    <td align="center" bgcolor="#161b22" style="border:2px solid #48cae4;border-radius:8px;">
+      <span style="font-size:32px;">👥</span><br/>
       <strong style="color:#48cae4;">Followers</strong><br/>
-      <span style="color:#c9d1d9;font-size:11px;">First Friend</span><br/>
-      <strong style="color:#e0e0e0;font-size:18px;">6pt</strong><br/>
-      <table width="80%" cellpadding="0" cellspacing="0" align="center" style="margin-top:6px;"><tr><td bgcolor="#0d1117" style="height:5px;border-radius:3px;"><table width="11%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#48cae4" style="height:5px;border-radius:3px;"></td></tr></table></td></tr></table>
-      <span style="color:#8b949e;font-size:10px;">RANK 11%</span>
+      <span style="color:#c9d1d9;">First Friend</span><br/>
+      <strong style="color:#e0e0e0;font-size:20px;">6pt</strong><br/>
+      <span style="color:#48cae4;">██</span><span style="color:#161b22;">████████</span><br/>
+      <span style="color:#8b949e;">RANK 11%</span>
     </td>
-    <td width="4%"></td>
-    <td align="center" width="22%" bgcolor="#161b22" style="border:1px solid #90e0ef;border-radius:8px;padding:14px 8px;">
-      <span style="font-size:28px;">❗</span><br/>
+    <td width="3%"></td>
+    <td align="center" bgcolor="#161b22" style="border:2px solid #90e0ef;border-radius:8px;">
+      <span style="font-size:32px;">❗</span><br/>
       <strong style="color:#90e0ef;">Issues</strong><br/>
-      <span style="color:#c9d1d9;font-size:11px;">First Issue</span><br/>
-      <strong style="color:#e0e0e0;font-size:18px;">4pt</strong><br/>
-      <table width="80%" cellpadding="0" cellspacing="0" align="center" style="margin-top:6px;"><tr><td bgcolor="#0d1117" style="height:5px;border-radius:3px;"><table width="33%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#90e0ef" style="height:5px;border-radius:3px;"></td></tr></table></td></tr></table>
-      <span style="color:#8b949e;font-size:10px;">RANK 33%</span>
+      <span style="color:#c9d1d9;">First Issue</span><br/>
+      <strong style="color:#e0e0e0;font-size:20px;">4pt</strong><br/>
+      <span style="color:#90e0ef;">███</span><span style="color:#161b22;">███████</span><br/>
+      <span style="color:#8b949e;">RANK 33%</span>
     </td>
   </tr>
-  <tr><td colspan="7" style="height:10px;"></td></tr>
+  <tr><td colspan="7" style="height:8px;"></td></tr>
   <tr>
-    <td align="center" width="25%" bgcolor="#161b22" style="border:1px solid #0d4175;border-radius:8px;padding:14px 8px;">
-      <span style="font-size:28px;">🔀</span><br/>
+    <td align="center" bgcolor="#161b22" style="border:2px solid #0d4175;border-radius:8px;">
+      <span style="font-size:32px;">🔀</span><br/>
       <strong style="color:#00b4d8;">Pull Requests</strong><br/>
-      <span style="color:#c9d1d9;font-size:11px;">First Pull</span><br/>
-      <strong style="color:#e0e0e0;font-size:18px;">2pt</strong><br/>
-      <table width="80%" cellpadding="0" cellspacing="0" align="center" style="margin-top:6px;"><tr><td bgcolor="#0d1117" style="height:5px;border-radius:3px;"><table width="11%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#0d4175" style="height:5px;border-radius:3px;"></td></tr></table></td></tr></table>
-      <span style="color:#8b949e;font-size:10px;">RANK 11%</span>
+      <span style="color:#c9d1d9;">First Pull</span><br/>
+      <strong style="color:#e0e0e0;font-size:20px;">2pt</strong><br/>
+      <span style="color:#0d4175;">██</span><span style="color:#161b22;">████████</span><br/>
+      <span style="color:#8b949e;">RANK 11%</span>
     </td>
-    <td width="4%"></td>
-    <td align="center" width="22%" bgcolor="#161b22" style="border:1px solid #00b4d8;border-radius:8px;padding:14px 8px;">
-      <span style="font-size:28px;">📦</span><br/>
+    <td width="3%"></td>
+    <td align="center" bgcolor="#161b22" style="border:2px solid #00b4d8;border-radius:8px;">
+      <span style="font-size:32px;">📦</span><br/>
       <strong style="color:#00b4d8;">Repositories</strong><br/>
-      <span style="color:#c9d1d9;font-size:11px;">First Repository</span><br/>
-      <strong style="color:#e0e0e0;font-size:18px;">39pt</strong><br/>
-      <table width="80%" cellpadding="0" cellspacing="0" align="center" style="margin-top:6px;"><tr><td bgcolor="#0d1117" style="height:5px;border-radius:3px;"><table width="56%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#00b4d8" style="height:5px;border-radius:3px;"></td></tr></table></td></tr></table>
-      <span style="color:#8b949e;font-size:10px;">RANK 56%</span>
+      <span style="color:#c9d1d9;">First Repository</span><br/>
+      <strong style="color:#e0e0e0;font-size:20px;">39pt</strong><br/>
+      <span style="color:#00b4d8;">█████</span><span style="color:#161b22;">█████</span><br/>
+      <span style="color:#8b949e;">RANK 56%</span>
     </td>
-    <td width="4%"></td>
-    <td align="center" width="22%" bgcolor="#161b22" style="border:1px solid #0077b6;border-radius:8px;padding:14px 8px;">
-      <span style="font-size:28px;">📈</span><br/>
+    <td width="3%"></td>
+    <td align="center" bgcolor="#161b22" style="border:2px solid #0077b6;border-radius:8px;">
+      <span style="font-size:32px;">📈</span><br/>
       <strong style="color:#0077b6;">Experience</strong><br/>
-      <span style="color:#c9d1d9;font-size:11px;">Newbie</span><br/>
-      <strong style="color:#e0e0e0;font-size:18px;">5pt</strong><br/>
-      <table width="80%" cellpadding="0" cellspacing="0" align="center" style="margin-top:6px;"><tr><td bgcolor="#0d1117" style="height:5px;border-radius:3px;"><table width="75%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#0077b6" style="height:5px;border-radius:3px;"></td></tr></table></td></tr></table>
-      <span style="color:#8b949e;font-size:10px;">RANK 75%</span>
+      <span style="color:#c9d1d9;">Newbie</span><br/>
+      <strong style="color:#e0e0e0;font-size:20px;">5pt</strong><br/>
+      <span style="color:#0077b6;">███████</span><span style="color:#161b22;">███</span><br/>
+      <span style="color:#8b949e;">RANK 75%</span>
     </td>
-    <td width="4%"></td>
-    <td align="center" width="22%" bgcolor="#161b22" style="border:1px solid #0d4175;border-radius:8px;padding:14px 8px;">
-      <span style="font-size:28px;">🔍</span><br/>
+    <td width="3%"></td>
+    <td align="center" bgcolor="#161b22" style="border:2px solid #0d4175;border-radius:8px;">
+      <span style="font-size:32px;">🔍</span><br/>
       <strong style="color:#48cae4;">Reviews</strong><br/>
-      <span style="color:#c9d1d9;font-size:11px;">Unknown</span><br/>
-      <strong style="color:#e0e0e0;font-size:18px;">0pt</strong><br/>
-      <table width="80%" cellpadding="0" cellspacing="0" align="center" style="margin-top:6px;"><tr><td bgcolor="#0d1117" style="height:5px;border-radius:3px;"><table width="1%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#0d4175" style="height:5px;border-radius:3px;"></td></tr></table></td></tr></table>
-      <span style="color:#8b949e;font-size:10px;">RANK 0%</span>
+      <span style="color:#c9d1d9;">Unknown</span><br/>
+      <strong style="color:#e0e0e0;font-size:20px;">0pt</strong><br/>
+      <span style="color:#161b22;">██████████</span><br/>
+      <span style="color:#8b949e;">RANK 0%</span>
     </td>
   </tr>
 </table>
@@ -254,37 +254,13 @@ Desarrollador Full Stack con enfoque en **arquitecturas escalables**, **ciberseg
     <td width="48%" valign="top" bgcolor="#161b22" style="border:1px solid #1e3a5f;border-radius:8px;padding:16px;">
       <strong style="color:#00b4d8;font-size:14px;">Most Used Languages</strong>
       <br/><br/>
-      <table width="100%" cellpadding="3">
-        <tr>
-          <td style="color:#c9d1d9;width:40%;">JavaScript</td>
-          <td style="width:50%;"><table width="100%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#0d1117" style="height:8px;border-radius:4px;"><table width="28%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#00b4d8" style="height:8px;border-radius:4px;"></td></tr></table></td></tr></table></td>
-          <td style="color:#8b949e;text-align:right;width:10%;">28%</td>
-        </tr>
-        <tr>
-          <td style="color:#c9d1d9;">Python</td>
-          <td><table width="100%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#0d1117" style="height:8px;border-radius:4px;"><table width="21%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#0077b6" style="height:8px;border-radius:4px;"></td></tr></table></td></tr></table></td>
-          <td style="color:#8b949e;text-align:right;">21%</td>
-        </tr>
-        <tr>
-          <td style="color:#c9d1d9;">TypeScript</td>
-          <td><table width="100%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#0d1117" style="height:8px;border-radius:4px;"><table width="8%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#48cae4" style="height:8px;border-radius:4px;"></td></tr></table></td></tr></table></td>
-          <td style="color:#8b949e;text-align:right;">8%</td>
-        </tr>
-        <tr>
-          <td style="color:#c9d1d9;">HTML</td>
-          <td><table width="100%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#0d1117" style="height:8px;border-radius:4px;"><table width="8%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#90e0ef" style="height:8px;border-radius:4px;"></td></tr></table></td></tr></table></td>
-          <td style="color:#8b949e;text-align:right;">8%</td>
-        </tr>
-        <tr>
-          <td style="color:#c9d1d9;">Dart</td>
-          <td><table width="100%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#0d1117" style="height:8px;border-radius:4px;"><table width="3%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#0d4175" style="height:8px;border-radius:4px;"></td></tr></table></td></tr></table></td>
-          <td style="color:#8b949e;text-align:right;">3%</td>
-        </tr>
-        <tr>
-          <td style="color:#c9d1d9;">Go</td>
-          <td><table width="100%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#0d1117" style="height:8px;border-radius:4px;"><table width="3%" cellpadding="0" cellspacing="0"><tr><td bgcolor="#0d4175" style="height:8px;border-radius:4px;"></td></tr></table></td></tr></table></td>
-          <td style="color:#8b949e;text-align:right;">3%</td>
-        </tr>
+      <table width="100%" cellpadding="4">
+        <tr><td style="color:#c9d1d9;">JavaScript</td><td style="color:#00b4d8;">████████</td><td style="color:#8b949e;" align="right">28%</td></tr>
+        <tr><td style="color:#c9d1d9;">Python</td><td style="color:#0077b6;">██████</td><td style="color:#8b949e;" align="right">21%</td></tr>
+        <tr><td style="color:#c9d1d9;">TypeScript</td><td style="color:#48cae4;">███</td><td style="color:#8b949e;" align="right">8%</td></tr>
+        <tr><td style="color:#c9d1d9;">HTML</td><td style="color:#90e0ef;">███</td><td style="color:#8b949e;" align="right">8%</td></tr>
+        <tr><td style="color:#c9d1d9;">Dart</td><td style="color:#0d4175;">█</td><td style="color:#8b949e;" align="right">3%</td></tr>
+        <tr><td style="color:#c9d1d9;">Go</td><td style="color:#0d4175;">█</td><td style="color:#8b949e;" align="right">3%</td></tr>
       </table>
     </td>
   </tr>
