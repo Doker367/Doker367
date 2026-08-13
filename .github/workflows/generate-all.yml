@@ -1,4 +1,4 @@
-name: Generate Profile Cards
+name: Generate All Profile Assets
 
 on:
   schedule:
@@ -21,6 +21,14 @@ jobs:
       - name: Generate SVG cards
         run: |
           GITHUB_USER=${{ github.repository_owner }} OUT_DIR=dist python3 scripts/generate_cards.py
+
+      - name: Generate Snake SVGs
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg?color_snake=%2300b4d8&color_dots=%230d1117,%230d4175,%230077b6,%2300b4d8,%2348cae4,%2390e0ef
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=%2300b4d8&color_dots=%230d1117,%230d4175,%230077b6,%2300b4d8,%2348cae4,%2390e0ef
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4

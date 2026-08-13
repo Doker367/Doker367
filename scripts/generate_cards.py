@@ -173,7 +173,7 @@ def generate_stats(data):
         svg += f'<circle cx="{lx + 22}" cy="{sy - 4}" r="10" fill="{PRIMARY}" opacity="0.15"/>\n'
         svg += text_el(lx + 22, sy + 1, icon, 10, PRIMARY)
         # Label
-        svg += text_el(lx + 42, sy, label, 13, TEXT_SEC, "start")
+        svg += text_el(lx + 58, sy, label, 13, TEXT_SEC, "start")
         # Value
         svg += text_el(lx + lw - 24, sy, str(val), 14, TEXT, "end", "bold")
 
