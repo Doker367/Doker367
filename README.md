@@ -137,16 +137,30 @@ Desarrollador Full Stack con enfoque en **arquitecturas escalables**, **ciberseg
       </p>
       <a href="https://github.com/Doker367/Cielo-y-Tierra-POSH">→ Ver repositorio</a>
     </td>
-    <td width="50%" valign="top" align="center">
-      <br/><br/>
-      <em>More projects coming soon...</em>
-      <br/><br/>
-      <a href="https://github.com/Doker367?tab=repositories">
-        <img src="https://img.shields.io/badge/All_Repositories-→-00b4d8?style=for-the-badge&logo=github&logoColor=white" />
-      </a>
+    <td width="50%" valign="top">
+      <h4>🎵 Dystopia Music — Cyberpunk Player</h4>
+      <p>Reproductor de música moderno, premium y futurista para <strong>Android</strong> desarrollado en <strong>Flutter</strong> con estética cyberpunk glassmorphic. Incluye motor DSP por hardware nativo y soporte offline completo.</p>
+      <ul>
+        <li>Ecualizador DSP: <strong>HiFi 320K</strong>, <strong>Bass Boost (+7dB)</strong> y <strong>Reverb Neon</strong></li>
+        <li>Búsqueda y streaming universal sin restricciones de género ni censura</li>
+        <li>Descargas offline con animación de porcentaje circular (Apple Music style)</li>
+        <li>Navbar flotante con cápsula deslizante táctil y widgets para Android</li>
+      </ul>
+      <p>
+        <code>Flutter</code> <code>Dart</code> <code>Riverpod</code> <code>just_audio</code>
+        <code>AudioService</code> <code>Hive</code> <code>Android Widgets</code>
+      </p>
+      <a href="https://github.com/Doker367/dystopia-music">→ Ver repositorio</a>
     </td>
   </tr>
 </table>
+
+<div align="center">
+  <br/>
+  <a href="https://github.com/Doker367?tab=repositories">
+    <img src="https://img.shields.io/badge/All_Repositories-→-00b4d8?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</div>
 
 ---
 
