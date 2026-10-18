@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="274" viewBox="0 0 390 274" role="img" aria-labelledby="title description">
+  <title id="title">Hago software para el mundo real</title>
+  <desc id="description">Escala, seguridad e inteligencia aplicada a sistemas POS, comercio y detección de fraude.</desc>
+  <rect width="390" height="274" fill="#e5f1f2"/>
+  <text x="20" y="60" fill="#101526" font-family="Arial, Helvetica, sans-serif" font-size="33" font-weight="bold">Hago software</text>
+  <text x="20" y="99" fill="#101526" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold">para el mundo real.</text>
+  <text x="21" y="135" fill="#27636d" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold">ESCALA  ·  SEGURIDAD  ·  IA APLICADA</text>
+  <circle cx="37" cy="208" r="10" fill="#101526"/>
+  <path d="M47 208H91Q106 208 106 172H155" fill="none" stroke="#008fa0" stroke-width="6" stroke-linecap="round"/>
+  <path d="M47 208H155" fill="none" stroke="#b2416b" stroke-width="6" stroke-linecap="round"/>
+  <path d="M47 208H91Q106 208 106 245H155" fill="none" stroke="#a97811" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="155" cy="172" r="6" fill="#008fa0"/>
+  <circle cx="155" cy="208" r="6" fill="#b2416b"/>
+  <circle cx="155" cy="245" r="6" fill="#a97811"/>
+  <text x="172" y="178" fill="#101526" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold">POS</text>
+  <text x="172" y="214" fill="#101526" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold">COMERCIO</text>
+  <text x="172" y="251" fill="#101526" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold">FRAUDE</text>
+</svg>

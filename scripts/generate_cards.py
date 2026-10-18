@@ -3,6 +3,7 @@
 
 import datetime
 import json
+import math
 import os
 import re
 from collections import Counter
@@ -13,21 +14,21 @@ from urllib.parse import quote
 from urllib.request import Request, urlopen
 from xml.sax.saxutils import escape
 
-BG = "#101820"
-SURFACE = "#17242d"
-INK = "#f0f5f3"
-MUTED = "#a9c4c9"
-CYAN = "#39d5dc"
-YELLOW = "#f8d465"
-PINK = "#ff83a6"
-ORANGE = "#ffab70"
-BLUE = "#83b8ff"
+BG = "#101526"
+SURFACE = "#17243b"
+INK = "#f4f7fb"
+MUTED = "#b3c7d4"
+CYAN = "#62d8e8"
+YELLOW = "#ffd36e"
+PINK = "#ff8bb7"
+ORANGE = "#ffb071"
+BLUE = "#8cb4ff"
 LEVELS = {
-    "NONE": "#24343d",
-    "FIRST_QUARTILE": "#245660",
-    "SECOND_QUARTILE": "#278790",
-    "THIRD_QUARTILE": "#32b5bd",
-    "FOURTH_QUARTILE": CYAN,
+    "NONE": "#203049",
+    "FIRST_QUARTILE": "#28608a",
+    "SECOND_QUARTILE": "#27a5b5",
+    "THIRD_QUARTILE": "#70d7a6",
+    "FOURTH_QUARTILE": YELLOW,
 }
 
 
@@ -259,14 +260,211 @@ def ghost(x, y, color, delay, distance):
         '<path d="M-12 11V-2a12 12 0 0 1 24 0v13l-4-3-4 3-4-3-4 3-4-3z"/>'
         '<ellipse cx="-4" cy="-2" rx="3" ry="4" fill="#fff"/>'
         '<ellipse cx="5" cy="-2" rx="3" ry="4" fill="#fff"/>'
-        '<circle cx="-3" cy="-1" r="1.5" fill="#17242d"/>'
-        '<circle cx="6" cy="-1" r="1.5" fill="#17242d"/>'
+        '<circle cx="-3" cy="-1" r="1.5" fill="#101526"/>'
+        '<circle cx="6" cy="-1" r="1.5" fill="#101526"/>'
     )
     return (
         f'<g transform="translate({x} {y})" fill="{color}">{shape}'
         f'<animateMotion path="M0 0 H{distance}" dur="11s" begin="{delay}s" repeatCount="indefinite"/>'
         "</g>"
     )
+
+
+ACTIVITY_COLORS = (
+    "#263650",  # No contributions.
+    "#426cb8",  # 1–2: blue.
+    "#20b9cb",  # 3–5: turquoise.
+    "#65d694",  # 6–11: green.
+    "#ffca62",  # 12+: gold.
+)
+CYCLE_SECONDS = 38
+
+
+def activity_band(count):
+    if count == 0:
+        return 0
+    if count <= 2:
+        return 1
+    if count <= 5:
+        return 2
+    if count <= 11:
+        return 3
+    return 4
+
+
+def ordered_activity_route(weeks, start_x, graph_y, step=18):
+    """Visit real nonzero days by count, nearest first only within equal counts."""
+    groups = {}
+    for week_index, week in enumerate(weeks):
+        for day in week["contributionDays"]:
+            count = day["contributionCount"]
+            if count <= 0:
+                continue
+            weekday = (datetime.date.fromisoformat(day["date"]).weekday() + 1) % 7
+            groups.setdefault(count, []).append({
+                "count": count, "date": day["date"],
+                "x": start_x + week_index * step + 7,
+                "y": graph_y + weekday * step + 7,
+            })
+    route = []
+    current = (start_x + 7, graph_y + 3 * step + 7)
+    for count in sorted(groups):
+        remaining = groups[count]
+        while remaining:
+            index = min(
+                range(len(remaining)),
+                key=lambda item: (
+                    (remaining[item]["x"] - current[0]) ** 2 + (remaining[item]["y"] - current[1]) ** 2,
+                    remaining[item]["date"],
+                ),
+            )
+            point = remaining.pop(index)
+            route.append(point)
+            current = (point["x"], point["y"])
+    return route
+
+
+def route_progress(route):
+    distances = [0.0]
+    for previous, current in zip(route, route[1:]):
+        distances.append(distances[-1] + math.hypot(
+            current["x"] - previous["x"], current["y"] - previous["y"]
+        ))
+    total = distances[-1] if distances else 0
+    return [distance / total if total else 0 for distance in distances]
+
+
+def fade_after_arrival(fraction, consumed_opacity):
+    """SMIL values share one clock, so every cell resets with Pac-Man."""
+    arrival = max(.001, min(fraction, .995))
+    after = min(arrival + .002, .998)
+    return (
+        f'<animate attributeName="opacity" values="1;1;{consumed_opacity};{consumed_opacity};1" '
+        f'keyTimes="0;{arrival:.5f};{after:.5f};.999;1" '
+        f'dur="{CYCLE_SECONDS}s" repeatCount="indefinite"/>'
+    )
+
+
+def activity_ghost(x, y, color, fraction, animate):
+    shape = (
+        f'<path d="M-12 11V-2a12 12 0 0 1 24 0v13l-4-3-4 3-4-3-4 3-4-3z" '
+        f'fill="{color}" stroke="{BG}" stroke-width="2"/>'
+        '<ellipse cx="-4" cy="-2" rx="3" ry="4" fill="#fff"/>'
+        '<ellipse cx="5" cy="-2" rx="3" ry="4" fill="#fff"/>'
+        f'<circle cx="-3" cy="-1" r="1.5" fill="{BG}"/>'
+        f'<circle cx="6" cy="-1" r="1.5" fill="{BG}"/>'
+    )
+    return f'<g transform="translate({x} {y})">{shape}{fade_after_arrival(fraction, 0) if animate else ""}</g>'
+
+
+def activity_legend(mobile):
+    labels = ["0", "1–2", "3–5", "6–11", "12+"]
+    svg = []
+    for index, (label, color) in enumerate(zip(labels, ACTIVITY_COLORS)):
+        x = (20 + index * 72) if mobile else (40 + index * 135)
+        y = 465 if mobile else 429
+        svg.append(f'<rect x="{x}" y="{y}" width="13" height="13" rx="3" fill="{color}"/>')
+        svg.append(text(x + 20, y + 12, label, 13 if mobile else 15, MUTED))
+    return svg
+
+
+def generate_activity_panel(stats, calendar, mobile=False, animate=True):
+    """One activity panel: live metrics and Pac-Man moving inside the real grid."""
+    weeks = calendar["weeks"][-18:] if mobile else calendar["weeks"]
+    if not weeks or not any(week["contributionDays"] for week in weeks):
+        raise ValueError("GitHub returned an empty contribution calendar")
+    width, height = (390, 492) if mobile else (max(1060, 84 + len(weeks) * 18), 458)
+    days = [day for week in weeks for day in week["contributionDays"]]
+    first_date, last_date = days[0]["date"], days[-1]["date"]
+    milestones = calendar_milestones(calendar)
+    graph_y, start_x, step = (274, 30, 18) if mobile else (240, 42, 18)
+    route = ordered_activity_route(weeks, start_x, graph_y, step)
+    progress = route_progress(route)
+    rank_by_date = {point["date"]: index for index, point in enumerate(route)}
+    description = f"{calendar['totalContributions']} contribuciones en el último año. Calendario del {first_date} al {last_date}."
+    if route:
+        description += " Pac-Man consume la actividad de menor a mayor y devora fantasmas durante el recorrido."
+    svg = [
+        svg_root(width, height, "Actividad de GitHub de Doker367", description),
+        f'<rect width="{width}" height="{height}" fill="{BG}"/>',
+    ]
+    accents = [CYAN, YELLOW, PINK, BLUE]
+    for index, color in enumerate(accents):
+        svg.append(f'<rect x="{index * width / 4:.1f}" width="{width / 4:.1f}" height="6" fill="{color}"/>')
+    left = 20 if mobile else 40
+    svg.append(text(left, 45 if not mobile else 42, "Actividad en GitHub" if not mobile else "Actividad", 32 if not mobile else 29, INK, "bold"))
+    if mobile:
+        svg.append(text(width - 20, 42, "GITHUB", 13, CYAN, "bold", "end"))
+    else:
+        svg.append(text(width - 40, 45, "DOKER367  /  ÚLTIMO AÑO", 15, MUTED, "bold", "end"))
+    svg.append(text(left, 75 if not mobile else 69, f"{first_date}  —  {last_date}", 15 if not mobile else 13, MUTED))
+    metrics = [
+        (calendar["totalContributions"], "Contribuciones", CYAN),
+        (stats["repositories"], "Repositorios", YELLOW),
+        (stats["stars"], "Estrellas", PINK),
+        (stats["followers"], "Seguidores", BLUE),
+    ]
+    for index, (value, label, color) in enumerate(metrics):
+        if mobile:
+            x, y, size = 20 + (index % 2) * 188, 127 + (index // 2) * 75, 43
+        else:
+            x, y, size = 40 + index * ((width - 80) / 4), 150, 53
+        svg.append(text(f"{x:.1f}", y, f"{value:,}", size, color, "bold"))
+        svg.append(text(f"{x:.1f}", y + 26, label, 16 if mobile else 18, MUTED))
+    graph_label = ("Pac-Man: menor → mayor" if mobile else "Pac-Man come de menor a mayor") if route else "Sin contribuciones recientes"
+    svg.append(text(left, 254 if mobile else 215, graph_label, 17 if mobile else 19, INK, "bold"))
+    if not mobile and route:
+        svg.append(text(width - 40, 215, "CASILLAS + FANTASMAS", 15, YELLOW, "bold", "end"))
+    for week_index, week in enumerate(weeks):
+        for day in week["contributionDays"]:
+            weekday = (datetime.date.fromisoformat(day["date"]).weekday() + 1) % 7
+            x, y = start_x + week_index * step, graph_y + weekday * step
+            count = day["contributionCount"]
+            band = activity_band(count)
+            rank = rank_by_date.get(day["date"])
+            cell_animation = fade_after_arrival(progress[rank], 0) if animate and rank is not None else ""
+            svg.append(
+                f'<rect x="{x}" y="{y}" width="14" height="14" rx="3" '
+                f'fill="{ACTIVITY_COLORS[band]}" data-count="{count}">'
+                f'<title>{day["date"]}: {count} contribuciones</title>{cell_animation}</rect>'
+            )
+    if route:
+        ghost_indices = sorted({min(len(route) - 1, round((len(route) - 1) * fraction)) for fraction in (.28, .58, .86)})
+        for index, color in zip(ghost_indices, (PINK, BLUE, ORANGE)):
+            point = route[index]
+            svg.append(activity_ghost(point["x"], point["y"], color, progress[index], animate))
+        first = route[0]
+        svg.append(f'<g transform="translate({first["x"]} {first["y"]})" fill="{YELLOW}">')
+        svg.append(f'<circle r="13" stroke="{BG}" stroke-width="2"/>')
+        svg.append(f'<path d="M0 0L15-7A16 16 0 0 1 15 7Z" fill="{BG}">')
+        if animate:
+            svg.append('<animate attributeName="opacity" values="1;0;1" dur=".28s" repeatCount="indefinite"/>')
+        svg.append('</path>')
+        if animate and len(route) > 1:
+            path = "M0 0 " + " ".join(
+                f'L{point["x"] - first["x"]} {point["y"] - first["y"]}' for point in route[1:]
+            )
+            svg.append(f'<animateMotion path="{path}" rotate="auto" dur="{CYCLE_SECONDS}s" repeatCount="indefinite"/>')
+        svg.append('</g>')
+    else:
+        svg.append(f'<circle cx="{start_x + 7}" cy="{graph_y + 3 * step + 7}" r="13" '
+                   f'fill="{YELLOW}" stroke="{BG}" stroke-width="2"/>')
+    if mobile:
+        svg.append(text(20, 421, f"{milestones[1][1]:,} días activos  ·  {milestones[2][1]:,} días de racha", 16, INK))
+        svg.append(text(20, 449, f"Máximo: {milestones[3][1]:,} contribuciones en un día", 15, MUTED))
+        svg.extend(activity_legend(True))
+    else:
+        for index, (value, label, color) in enumerate([
+            (milestones[1][1], "días activos", CYAN),
+            (milestones[2][1], "días de racha", PINK),
+            (milestones[3][1], "en un día", YELLOW),
+        ]):
+            x = 40 + index * ((width - 80) / 3)
+            svg.append(text(f"{x:.1f}", 414, f"{value:,}", 24, color, "bold"))
+            svg.append(text(f"{x + 43:.1f}", 414, label, 17, INK))
+        svg.extend(activity_legend(False))
+    svg.append("</svg>")
+    return "\n".join(svg)
 
 
 def generate_pacman(calendar, mobile=False):
@@ -344,9 +542,7 @@ def main():
     (out_dir / "milestones-mobile.svg").write_text(generate_milestones(calendar, mobile=True), encoding="utf-8")
     (out_dir / "stats.svg").write_text(generate_stats(stats), encoding="utf-8")
     (out_dir / "stats-mobile.svg").write_text(generate_stats_mobile(stats), encoding="utf-8")
-    (out_dir / "pacman.svg").write_text(generate_pacman(calendar), encoding="utf-8")
-    (out_dir / "pacman-mobile.svg").write_text(generate_pacman(calendar, mobile=True), encoding="utf-8")
-    print(f"Generated real GitHub stats and {calendar['totalContributions']} contributions for {username}")
+    print(f"Generated GitHub statistics for {username}; the snake is built by the workflow")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="300" viewBox="0 0 390 300" role="img" aria-labelledby="title description">
+  <title id="title">GreenFraudShield: evaluación de fraude con tres modelos</title>
+  <desc id="description">Autoencoder, Isolation Forest y XGBoost, con explicabilidad mediante LLaMA 3 y Ollama.</desc>
+  <rect width="390" height="300" fill="#14223a"/>
+  <text x="20" y="39" fill="#f4f7fb" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold">Tres modelos. Una decisión</text>
+  <text x="20" y="67" fill="#f4f7fb" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold">explicable.</text>
+  <path d="M30 110H72V150H101M72 150H101M72 150V190H101" fill="none" stroke="#62d8e8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="115" y="117" fill="#ffd36e" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold">Autoencoder</text>
+  <text x="115" y="157" fill="#ff8bb7" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold">Isolation Forest</text>
+  <text x="115" y="197" fill="#8cb4ff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold">XGBoost</text>
+  <path d="M30 225H62" fill="none" stroke="#70d7a6" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="65" cy="225" r="6" fill="#70d7a6"/>
+  <text x="82" y="231" fill="#f4f7fb" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold">Riesgo explicado</text>
+  <text x="21" y="272" fill="#b3c7d4" font-family="Arial, Helvetica, sans-serif" font-size="15">LLaMA 3 · Ollama · IA local</text>
+</svg>

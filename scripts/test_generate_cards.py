@@ -6,8 +6,9 @@ import xml.etree.ElementTree as ET
 from unittest.mock import patch
 
 from generate_cards import (
-    PublicCalendarParser, calendar_milestones, generate_milestones, generate_pacman,
-    generate_stats, generate_stats_mobile, get_contributions, get_public_stats,
+    PublicCalendarParser, activity_band, calendar_milestones, generate_activity_panel,
+    generate_milestones, generate_pacman, generate_stats, generate_stats_mobile,
+    get_contributions, get_public_stats, ordered_activity_route,
 )
 
 
@@ -62,6 +63,53 @@ class ProfileAssetTests(unittest.TestCase):
         mobile = generate_pacman({"weeks": [{"contributionDays": days}], "totalContributions": 21}, mobile=True)
         self.assertEqual(ET.fromstring(mobile).attrib["width"], "390")
         self.assertIn("21 aportes", mobile)
+
+    def test_one_panel_places_pacman_inside_real_contribution_grid(self):
+        sunday = datetime.date(2026, 6, 14)
+        weeks = []
+        for week in range(18):
+            weeks.append({"contributionDays": [
+                {
+                    "date": (sunday + datetime.timedelta(days=week * 7 + day)).isoformat(),
+                    "contributionCount": 1 + week % 4 if day == 3 else 0,
+                    "contributionLevel": "FIRST_QUARTILE" if day == 3 else "NONE",
+                }
+                for day in range(7)
+            ]})
+        calendar = {"weeks": weeks, "totalContributions": 43}
+        stats = {"repositories": 45, "stars": 7, "followers": 55}
+        self.assertEqual([activity_band(n) for n in (0, 1, 2, 3, 5, 6, 11, 12)],
+                         [0, 1, 1, 2, 2, 3, 3, 4])
+        for mobile, expected_width in [(False, "1060"), (True, "390")]:
+            graph_y, start_x = (274, 30) if mobile else (240, 42)
+            route = ordered_activity_route(weeks, start_x, graph_y)
+            self.assertEqual([point["count"] for point in route], sorted(point["count"] for point in route))
+            svg = generate_activity_panel(stats, calendar, mobile=mobile)
+            root = ET.fromstring(svg)
+            self.assertEqual(root.attrib["width"], expected_width)
+            self.assertIn(f'translate({route[0]["x"]} {route[0]["y"]})', svg)
+            self.assertIn("2026-06-17: 1 contribuciones", svg)
+            motion = root.findall(".//{http://www.w3.org/2000/svg}animateMotion")
+            self.assertEqual(len(motion), 1)
+            self.assertEqual(motion[0].attrib["rotate"], "auto")
+            self.assertEqual(len(root.findall(".//{http://www.w3.org/2000/svg}animate")), 22)
+            self.assertNotIn('y="81" width=', svg)
+            static = ET.fromstring(generate_activity_panel(stats, calendar, mobile=mobile, animate=False))
+            self.assertFalse(static.findall(".//{http://www.w3.org/2000/svg}animateMotion"))
+            self.assertFalse(static.findall(".//{http://www.w3.org/2000/svg}animate"))
+
+    def test_empty_activity_has_no_false_ghost_encounters(self):
+        days = [{
+            "date": (datetime.date(2026, 10, 11) + datetime.timedelta(days=day)).isoformat(),
+            "contributionCount": 0, "contributionLevel": "NONE",
+        } for day in range(7)]
+        svg = generate_activity_panel(
+            {"repositories": 0, "stars": 0, "followers": 0},
+            {"weeks": [{"contributionDays": days}], "totalContributions": 0},
+        )
+        root = ET.fromstring(svg)
+        self.assertIn("Sin contribuciones recientes", svg)
+        self.assertFalse(root.findall(".//{http://www.w3.org/2000/svg}animateMotion"))
 
     def test_public_calendar_tooltips_supply_real_counts(self):
         parser = PublicCalendarParser()
