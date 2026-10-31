@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="226" viewBox="0 0 1000 226" role="img" aria-labelledby="title description"><title id="title">GitHub Milestones</title><desc id="description">Hitos calculados con el calendario real de contribuciones del último año.</desc>
+<rect width="1000" height="226" fill="#101526"/>
+<text x="36" y="43" fill="#f4f7fb" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="bold" text-anchor="start">Hitos del último año</text>
+<text x="36" y="137" fill="#62d8e8" font-family="Arial, Helvetica, sans-serif" font-size="61" font-weight="bold" text-anchor="start">963</text>
+<text x="36" y="164" fill="#b3c7d4" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start">Contribuciones</text>
+<text x="280" y="137" fill="#62d8e8" font-family="Arial, Helvetica, sans-serif" font-size="61" font-weight="bold" text-anchor="start">143</text>
+<text x="280" y="164" fill="#b3c7d4" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start">Días con actividad</text>
+<text x="524" y="137" fill="#62d8e8" font-family="Arial, Helvetica, sans-serif" font-size="61" font-weight="bold" text-anchor="start">9</text>
+<text x="524" y="164" fill="#b3c7d4" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start">Racha más larga</text>
+<text x="768" y="137" fill="#62d8e8" font-family="Arial, Helvetica, sans-serif" font-size="61" font-weight="bold" text-anchor="start">78</text>
+<text x="768" y="164" fill="#b3c7d4" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start">Máximo en un día</text>
+<text x="36" y="212" fill="#b3c7d4" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="start">Datos del calendario público de GitHub</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="248" viewBox="0 0 1000 248" role="img" aria-labelledby="title description"><title id="title">GitHub en cifras</title><desc id="description">Repositorios públicos, estrellas y seguidores obtenidos de la API de GitHub.</desc>
+<rect width="1000" height="248" fill="#101526"/>
+<text x="36" y="48" fill="#f4f7fb" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="bold" text-anchor="start">GitHub en cifras</text>
+<text x="36" y="130" fill="#62d8e8" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="bold" text-anchor="start">46</text>
+<text x="36" y="161" fill="#b3c7d4" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start">Repositorios públicos</text>
+<text x="362" y="130" fill="#62d8e8" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="bold" text-anchor="start">7</text>
+<text x="362" y="161" fill="#b3c7d4" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start">Estrellas recibidas</text>
+<text x="688" y="130" fill="#62d8e8" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="bold" text-anchor="start">55</text>
+<text x="688" y="161" fill="#b3c7d4" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start">Seguidores</text>
+<text x="36" y="218" fill="#f4f7fb" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" text-anchor="start">Lenguajes de repositorios: JavaScript, Python, TypeScript, HTML, Dart</text>
+</svg>
